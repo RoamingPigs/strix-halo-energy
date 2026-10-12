@@ -1,0 +1,6 @@
+{
+  "qwen35-9b-q4km": {"file": "Qwen3.5-9B-Q4_K_M.gguf", "kind": "dense", "label": "Qwen3.5-9B Q4_K_M"},
+  "gemma4-12b-q4": {"file": "gemma-4-12B-it-qat-UD-Q4_K_XL.gguf", "kind": "dense", "label": "gemma-4-12B-it QAT Q4_K_XL"},
+  "gemma4-26b-a4b-q4": {"file": "gemma-4-26B-A4B-it-qat-UD-Q4_K_XL.gguf", "kind": "moe", "label": "gemma-4-26B-A4B-it QAT Q4_K_XL"},
+  "qwen36-35b-a3b-q8": {"file": "Qwen3.6-35B-A3B-Q8_0.gguf", "kind": "moe", "label": "Qwen3.6-35B-A3B Q8_0"}
+}
