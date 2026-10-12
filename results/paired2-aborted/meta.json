@@ -1,0 +1,33 @@
+{
+ "started_unix": 1791841580.749612,
+ "uname": "Linux warden 7.0.0-38-generic #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026 x86_64 GNU/Linux",
+ "cmdline": "BOOT_IMAGE=/vmlinuz-7.0.0-38-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro amdgpu.cwsr_enable=0 amd_iommu=off ttm.pages_limit=31457280 amdgpu.gttsize=131072 panic=10 crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M",
+ "governor": "performance",
+ "mesa": "deviceName         = Radeon 8060S Graphics (RADV STRIX_HALO)\n\tdriverInfo         = Mesa 26.0.8-1ubuntu0.3\n\tdeviceName         = llvmpipe (LLVM 21.1.8, 256 bits)",
+ "build": "/home/cisco/.local/opt/llama.cpp/b10970-vulkan",
+ "build_files": "LICENSE\nggml-rpc-server\nlibggml-base.so\nlibggml-base.so.0\nlibggml-base.so.0.24.0\nlibggml-cpu-alderlake.so\nlibggml-cpu-cannonlake.so\nlibggml-cpu-cascadelake.so\nlibggml-cpu-cooperlake.so\nlibggml-cpu-haswell.so\nlibggml-cpu-icelake.so\nlibggml-cpu-ivybridge.so\nlibggml-cpu-piledriver.so\nlibggml-cpu-sandybridge.so\nlibggml-cpu-sapphirerapids.so\nlibggml-cpu-skylakex.so\nlibggml-cpu-sse42.so\nlibggml-cpu-x64.so\nlibggml-cpu-zen4.so\nlibggml-rpc.so\nlibggml-vulkan.so\nlibggml.so\nlibggml.so.0\nlibggml.so.0.24.0\nlibllama-batched-bench-impl.so\nlibllama-bench-impl.so\nlibllama-cli-impl.so\nlibllama-common.so\nlibllama-common.so.0\nlibllama-common.so.0.4.1\nlibllama-completion-impl.so\nlibllama-fit-params-impl.so\nlibllama-perplexity-impl.so\nlibllama-quantize-impl.so\nlibllama-server-impl.so\nlibllama.so\nlibllama.so.0\nlibllama.so.0.4.1\nlibmtmd.so\nlibmtmd.so.0",
+ "os": "PRETTY_NAME=\"Ubuntu 26.04.1 LTS\"",
+ "mem_gb": "Mem:             122           2          63           0          58         120",
+ "models": {
+  "qwen35-9b-q4km": {
+   "file": "Qwen3.5-9B-Q4_K_M.gguf",
+   "bytes": 5680522464,
+   "sha256": "03b74727a860a56338e042c4420bb3f04b2fec5734175f4cb9fa853daf52b7e8"
+  },
+  "gemma4-12b-q4": {
+   "file": "gemma-4-12B-it-qat-UD-Q4_K_XL.gguf",
+   "bytes": 6716356800,
+   "sha256": "90fd44e29e0d7cffeb0fd00dc73cfdab9ed0b0e95306ecf7821ea634c940c370"
+  },
+  "gemma4-26b-a4b-q4": {
+   "file": "gemma-4-26B-A4B-it-qat-UD-Q4_K_XL.gguf",
+   "bytes": 14249047104,
+   "sha256": "a7c5bc715f5ff8e99a3e8901ce7d2b42b402c669bf24f7c5250747633d0f5891"
+  },
+  "qwen36-35b-a3b-q8": {
+   "file": "Qwen3.6-35B-A3B-Q8_0.gguf",
+   "bytes": 37801097504,
+   "sha256": "c1283d8b80c3e38b2735ddbc9766d3b3126f44d6c484be419d4e101d09a76131"
+  }
+ }
+}
