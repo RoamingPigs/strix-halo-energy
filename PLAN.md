@@ -80,3 +80,7 @@ Any multiplier against a datacenter GPU, "verified", "validated", "reproduced" (
 - One reading of the plug and of the package power at idle (16 W and 6 W).
 - A start-up check that the ROCm build of `llama.cpp` finds no GPU.
 - Before the run, pipeline smoke tests (a short decode on each model, to check that the server starts, that the cache is reused and that the logs are written). Their power numbers will not be used.
+
+## Addendum, 2026-10-12, before the measured run (pushed after the plan above)
+
+While testing the harness end to end I looked at one short trace from a smoke test (a 9B model at depth 64, 60 s load step). It showed the wall plug at 18 to 19 W idle and about 137 W under load, the package at 4 to 5 W idle and about 94 W under load, and the plug following the load step within about 1 s. So E1 and E3 are not independent predictions: I had seen those numbers. The smoke tests are not used in the results. I also found, in the journal, the periodic request from another host described under "Guards", and added the scheduling rule for it. No cell of the measured run had been run when this addendum was pushed.
