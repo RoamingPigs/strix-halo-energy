@@ -26,6 +26,8 @@ def make_plan(seed: int = SEED, rounds: int = ROUNDS) -> dict:
 
 
 if __name__ == "__main__":
-    out = HERE / "plan.json"
-    out.write_text(json.dumps(make_plan(), indent=1) + "\n")
+    import sys
+    seed = int(sys.argv[1]) if len(sys.argv) > 1 else SEED
+    out = HERE / (sys.argv[2] if len(sys.argv) > 2 else "plan.json")
+    out.write_text(json.dumps(make_plan(seed), indent=1) + "\n")
     print("wrote", out)
