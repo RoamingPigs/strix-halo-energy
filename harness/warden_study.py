@@ -210,11 +210,18 @@ def licence_text() -> str:
     return "\n\n".join(parts)
 
 
+class CellFailed(Exception):
+    """The server rejected or dropped a request. The cell is logged as failed and the server is restarted."""
+
+
 def completion(ids, n_predict):
     body = {"prompt": ids, "n_predict": n_predict, "temperature": 0, "ignore_eos": True, "cache_prompt": True,
             "stream": False}
     t_send = now()
-    r = http_json("POST", f"http://127.0.0.1:{PORT}/completion", body)
+    try:
+        r = http_json("POST", f"http://127.0.0.1:{PORT}/completion", body)
+    except Exception as e:
+        raise CellFailed(f"{type(e).__name__}: {e}") from e
     t_recv = now()
     tm = r.get("timings", {})
     keep = {k: tm.get(k) for k in ("prompt_n", "prompt_ms", "predicted_n", "predicted_ms", "predicted_per_second", "cache_n")}
@@ -243,6 +250,14 @@ def idle(log: Log, label: str, seconds: float, **kw):
 
 
 def run_cell(log, guard, ids, model_key, depth, rnd, window_s, settle_s):
+    try:
+        return _run_cell(log, guard, ids, model_key, depth, rnd, window_s, settle_s)
+    except CellFailed as e:
+        log.write(kind="cell_failed", error=str(e), model=model_key, depth=depth, round=rnd)
+        raise
+
+
+def _run_cell(log, guard, ids, model_key, depth, rnd, window_s, settle_s):
     cell = {"model": model_key, "depth": depth, "round": rnd}
     wait = slot_wait(now(), EST_CELL_S.get(depth, 380.0) * (window_s / WINDOW_S if window_s < WINDOW_S else 1.0))
     if wait > 0:
@@ -329,6 +344,7 @@ def main():
     ap.add_argument("--only-rounds", type=int, default=0, help="smoke tests: run only this many rounds")
     ap.add_argument("--only-models", default="", help="smoke tests: comma list of model keys")
     ap.add_argument("--only-depths", default="", help="smoke tests: comma list of depths")
+    ap.add_argument("--cells-file", default="", help="JSON list of [round, model, depth]: run only these cells, in plan order")
     ap.add_argument("--no-hash", action="store_true")
     ap.add_argument("--no-step", action="store_true")
     args = ap.parse_args()
@@ -354,10 +370,16 @@ def main():
         only_depths = {int(x) for x in filter(None, args.only_depths.split(","))}
         contaminated = []
 
+        wanted = None
+        if args.cells_file:
+            wanted = {tuple(c) for c in json.loads(pathlib.Path(args.cells_file).read_text())}
+        failed = []
+
         def run_block(model_key, depths, rnd, step=False):
             m = models[model_key]
             path = f"{args.models_dir}/{m['file']}"
-            srv = Server(args.build, path, out, f"r{rnd}-{model_key}")
+            tag = f"r{rnd}-{model_key}"
+            srv = Server(args.build, path, out, tag)
             t_load = srv.start()
             log.write(kind="server_up", model=model_key, round=rnd, load_s=t_load)
             try:
@@ -372,8 +394,18 @@ def main():
                 for d in depths:
                     if only_depths and d not in only_depths:
                         continue
-                    if run_cell(log, guard, ids, model_key, d, rnd, args.window, args.settle):
-                        contaminated.append((model_key, d, rnd))
+                    if wanted is not None and (rnd, model_key, d) not in wanted:
+                        continue
+                    try:
+                        if run_cell(log, guard, ids, model_key, d, rnd, args.window, args.settle):
+                            contaminated.append((model_key, d, rnd))
+                    except CellFailed:
+                        failed.append((model_key, d, rnd))
+                        srv.stop()
+                        srv = Server(args.build, path, out, f"{tag}-restart{len(failed)}")
+                        t_load = srv.start()
+                        log.write(kind="server_up", model=model_key, round=rnd, load_s=t_load, restart=True)
+                        idle(log, "loaded_idle", 60, model=model_key, round=rnd)
             finally:
                 srv.stop()
             idle(log, "bare_idle_block", args.block_idle, model=model_key, round=rnd)
@@ -386,9 +418,12 @@ def main():
             for b in rd["blocks"]:
                 if only_models and b["model"] not in only_models:
                     continue
+                if wanted is not None and not any((rd["round"], b["model"], d) in wanted for d in b["depths"]):
+                    continue
                 run_block(b["model"], b["depths"], rd["round"])
-        for (mk, d, rnd) in contaminated[:]:
+        for (mk, d, rnd) in contaminated[:] + failed[:]:
             log.write(kind="rerun_contaminated", model=mk, depth=d, round=rnd)
+            wanted = None
             run_block(mk, [d], rnd)
         idle(log, "bare_idle_end", args.bare_idle)
         log.write(kind="done")
