@@ -1,0 +1,716 @@
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843505.1352768}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843510.143071}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843515.150715}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843520.1584935}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843525.16609}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843530.1731865}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843535.1809635}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843540.1888626}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843545.1964886}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843550.2040555}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843555.211735}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843560.2196205}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843565.2268636}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843570.2344317}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843575.2420716}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843580.2497518}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843585.2572536}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843590.2651625}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843595.2727153}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843600.2804391}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843605.288297}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843610.2958791}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843615.3020601}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843620.3093483}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843625.3170943}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843630.323414}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843635.3311107}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843640.337807}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843645.3453226}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843650.3533401}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843655.360799}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843660.368444}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843665.3738325}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843670.3811615}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843675.3887181}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843680.3961952}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843685.4020472}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843690.4095752}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843695.4167488}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843700.4232054}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843705.429896}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843710.4373198}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843715.4441226}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843720.4516268}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843725.4590042}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843730.466613}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843735.4740644}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843740.4815335}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843745.4892282}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843750.4967806}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843755.5041864}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843760.5119123}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843765.5195913}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843770.5265}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843775.533952}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843780.5415597}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843785.5489428}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843790.5562887}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843795.5638618}
+{"kind": "idle", "label": "bare_idle_start", "t0": 1791843500.115419, "t1": 1791843800.1155608, "t": 1791843800.11557}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843800.5693479}
+{"kind": "server_up", "model": "qwen35-9b-q4km", "round": 0, "load_s": 2.003728151999894, "t": 1791843802.1220121}
+{"kind": "tokenized", "model": "qwen35-9b-q4km", "n_tokens": 51419, "t": 1791843802.1859999}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843805.5771}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843810.584572}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843815.5920208}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843820.599522}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843825.6071706}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843830.6147516}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843835.6222525}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843840.6299477}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843845.6373274}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843850.644868}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843855.6524167}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843860.6598945}
+{"kind": "idle", "label": "loaded_idle", "t0": 1791843802.1860528, "t1": 1791843862.186552, "model": "qwen35-9b-q4km", "round": 0, "t": 1791843862.1865807}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843865.6674278}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843870.6750689}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843875.682689}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843880.6904242}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843885.6980164}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843890.705778}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843895.7132864}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843900.7208993}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843905.7267506}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843910.7342162}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843915.7416701}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843920.7493198}
+{"kind": "idle", "label": "step_idle_before", "t0": 1791843862.5360086, "t1": 1791843922.5362577, "model": "qwen35-9b-q4km", "t": 1791843922.5362833}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843925.7563853}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843930.763323}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843935.770759}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843940.7782896}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843945.7850757}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843950.7926264}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843955.799815}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843960.8071034}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843965.8148162}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843970.8221998}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843975.8293765}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843980.836657}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843985.843836}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843990.8515353}
+{"kind": "step_load", "t0": 1791843922.5364964, "t1": 1791843992.2450655, "model": "qwen35-9b-q4km", "t": 1791843992.2450674}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791843995.8588161}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844000.8648684}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844005.872299}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844010.8800502}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844015.887476}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844020.8952813}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844025.902759}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844030.9102693}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844035.9180114}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844040.9238672}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844045.929495}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844050.9351764}
+{"kind": "idle", "label": "step_idle_after", "t0": 1791843992.2451313, "t1": 1791844052.245379, "model": "qwen35-9b-q4km", "t": 1791844052.2454052}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844055.9407744}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844060.948378}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844065.9561903}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844070.9639902}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844075.970749}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844080.9784372}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844085.9859638}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844090.993609}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844096.000302}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844101.0079403}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844106.0156667}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844111.0223486}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844116.0300846}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844121.036628}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844126.0446072}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844131.052451}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844136.0602708}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844141.06774}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844146.0753114}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844151.0828722}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844156.0904372}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844161.0981948}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844166.1060631}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844171.1130521}
+{"kind": "idle", "label": "bare_idle_block", "t0": 1791844052.3603113, "t1": 1791844172.3606975, "model": "qwen35-9b-q4km", "round": 0, "t": 1791844172.360766}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844176.1206443, "backend": "vulkan"}
+{"kind": "server_up", "model": "qwen36-35b-a3b-q8", "round": 1, "load_s": 5.008882695001375, "t": 1791844177.3727953, "backend": "vulkan"}
+{"kind": "tokenized", "model": "qwen36-35b-a3b-q8", "n_tokens": 51419, "t": 1791844177.4403174, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844181.1275628, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844186.1330335, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844191.140011, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844196.1473713, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844201.155094, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844206.1628363, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844211.1707609, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844216.1784112, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844221.1841884, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844226.1918578, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844231.1994343, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844236.2070796, "backend": "vulkan"}
+{"kind": "idle", "label": "loaded_idle", "t0": 1791844177.4403625, "t1": 1791844237.4409316, "model": "qwen36-35b-a3b-q8", "round": 1, "t": 1791844237.4409618, "backend": "vulkan"}
+{"kind": "cell_start", "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844237.4412584, "backend": "vulkan"}
+{"kind": "fill", "t0": 1791844237.441341, "t1": 1791844237.9152236, "timings": {"prompt_n": 64, "prompt_ms": 470.163, "predicted_n": 1, "predicted_ms": 0.001, "predicted_per_second": 0.0, "cache_n": 0}, "tokens_cached": 64, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844237.9152384, "backend": "vulkan"}
+{"kind": "probe", "t0": 1791844237.9153876, "t1": 1791844239.428485, "timings": {"prompt_n": 4, "prompt_ms": 333.153, "predicted_n": 64, "predicted_ms": 1178.545, "predicted_per_second": 53.45574415911144, "cache_n": 60}, "cache_reused": true, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844239.4284966, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844241.2148669, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844246.2222152, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844251.227922, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844256.2358131, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844261.2420955, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844266.2480729, "backend": "vulkan"}
+{"kind": "idle", "label": "settle_before", "t0": 1791844239.428573, "t1": 1791844269.428834, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844269.428863, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844271.2552216, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844276.2597911, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844269.4291563, "t_recv": 1791844279.194634, "timings": {"prompt_n": 4, "prompt_ms": 338.534, "predicted_n": 512, "predicted_ms": 9423.358, "predicted_per_second": 54.22695391600319, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844279.1946497, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844281.2670028, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844286.274713, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844279.1948113, "t_recv": 1791844289.268865, "timings": {"prompt_n": 4, "prompt_ms": 338.025, "predicted_n": 512, "predicted_ms": 9406.703, "predicted_per_second": 54.322965230219346, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844289.26888, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844291.2815385, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844296.2864637, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844289.2689354, "t_recv": 1791844299.014576, "timings": {"prompt_n": 4, "prompt_ms": 334.887, "predicted_n": 512, "predicted_ms": 9409.119, "predicted_per_second": 54.309016603998735, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844299.0145876, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844301.293384, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844306.3005269, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844299.014669, "t_recv": 1791844308.7800229, "timings": {"prompt_n": 4, "prompt_ms": 335.526, "predicted_n": 512, "predicted_ms": 9428.19, "predicted_per_second": 54.19916229944453, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844308.7800353, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844311.30755, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844316.313759, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844308.7801003, "t_recv": 1791844318.4798465, "timings": {"prompt_n": 4, "prompt_ms": 335.219, "predicted_n": 512, "predicted_ms": 9363.03, "predicted_per_second": 54.5763497500275, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844318.4798613, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844321.3208039, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844326.32628, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844318.4799461, "t_recv": 1791844328.2030306, "timings": {"prompt_n": 4, "prompt_ms": 335.04, "predicted_n": 512, "predicted_ms": 9386.672, "predicted_per_second": 54.43888952335822, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844328.2030456, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844331.333595, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844336.3391144, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844328.2031207, "t_recv": 1791844337.988618, "timings": {"prompt_n": 4, "prompt_ms": 336.061, "predicted_n": 512, "predicted_ms": 9447.81, "predicted_per_second": 54.08660843094855, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844337.988633, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844341.3460784, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844346.3510494, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844337.9887416, "t_recv": 1791844347.746282, "timings": {"prompt_n": 4, "prompt_ms": 334.461, "predicted_n": 512, "predicted_ms": 9421.313, "predicted_per_second": 54.23872447502805, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844347.7462962, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844351.358296, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844356.3649619, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844347.7463837, "t_recv": 1791844357.4886594, "timings": {"prompt_n": 4, "prompt_ms": 335.675, "predicted_n": 512, "predicted_ms": 9405.141, "predicted_per_second": 54.33198715468487, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844357.4886742, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844361.3719165, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844366.3787627, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844357.4888084, "t_recv": 1791844367.2871473, "timings": {"prompt_n": 4, "prompt_ms": 336.399, "predicted_n": 512, "predicted_ms": 9460.276, "predicted_per_second": 54.01533739607598, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844367.2871614, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844371.3856683, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844376.3924358, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844367.287252, "t_recv": 1791844377.0738556, "timings": {"prompt_n": 4, "prompt_ms": 339.032, "predicted_n": 512, "predicted_ms": 9445.864, "predicted_per_second": 54.09775114272236, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844377.073871, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844381.4002206, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844386.4067562, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844377.073966, "t_recv": 1791844386.8512561, "timings": {"prompt_n": 4, "prompt_ms": 336.752, "predicted_n": 512, "predicted_ms": 9438.96, "predicted_per_second": 54.13732021324383, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844386.8512716, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844391.4139354, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844396.4193733, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844386.8513515, "t_recv": 1791844396.6504056, "timings": {"prompt_n": 4, "prompt_ms": 335.307, "predicted_n": 512, "predicted_ms": 9461.922, "predicted_per_second": 54.00594086486868, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844396.65042, "backend": "vulkan"}
+{"kind": "window", "t0": 1791844269.4291563, "t1": 1791844396.6504056, "n_requests": 13, "cache_reused": true, "tokens": 6656, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844396.650505, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844401.4253, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844406.4329083, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844411.4400594, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844416.4477458, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844421.4537685, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844426.4610882, "backend": "vulkan"}
+{"kind": "idle", "label": "settle_after", "t0": 1791844396.650518, "t1": 1791844426.65079, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844426.650819, "backend": "vulkan"}
+{"kind": "cell_end", "contaminated": false, "flags": [], "ollama_requests": 0, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791844426.6581109, "backend": "vulkan"}
+{"kind": "cell_start", "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844426.6581993, "backend": "vulkan"}
+{"kind": "fill", "t0": 1791844426.6582494, "t1": 1791844430.7824187, "timings": {"prompt_n": 4036, "prompt_ms": 4120.723, "predicted_n": 1, "predicted_ms": 0.001, "predicted_per_second": 0.0, "cache_n": 60}, "tokens_cached": 4096, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844430.7824507, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844431.4680982, "backend": "vulkan"}
+{"kind": "probe", "t0": 1791844430.7825646, "t1": 1791844432.3192496, "timings": {"prompt_n": 4, "prompt_ms": 334.808, "predicted_n": 64, "predicted_ms": 1198.87, "predicted_per_second": 52.54948409752517, "cache_n": 4092}, "cache_reused": true, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844432.319283, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844436.4754286, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844441.4831696, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844446.4906118, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844451.4983637, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844456.5056844, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844461.512272, "backend": "vulkan"}
+{"kind": "idle", "label": "settle_before", "t0": 1791844432.3193386, "t1": 1791844462.3197093, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844462.3197427, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844466.5193498, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844471.5239935, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844462.3199685, "t_recv": 1791844472.3491383, "timings": {"prompt_n": 4, "prompt_ms": 340.457, "predicted_n": 512, "predicted_ms": 9686.121, "predicted_per_second": 52.755896813595456, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844472.349172, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844476.5306153, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844481.535342, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844472.3492877, "t_recv": 1791844482.4419663, "timings": {"prompt_n": 4, "prompt_ms": 334.663, "predicted_n": 512, "predicted_ms": 9755.603, "predicted_per_second": 52.38015528102159, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844482.4419973, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844486.542158, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844491.5491643, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844482.4421017, "t_recv": 1791844492.4743354, "timings": {"prompt_n": 4, "prompt_ms": 334.004, "predicted_n": 512, "predicted_ms": 9695.588, "predicted_per_second": 52.70438471601722, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844492.474364, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844496.5591266, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844501.5659995, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844492.4744256, "t_recv": 1791844502.5169678, "timings": {"prompt_n": 4, "prompt_ms": 335.445, "predicted_n": 512, "predicted_ms": 9704.118, "predicted_per_second": 52.65805712585111, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844502.5169988, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844506.5730639, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844511.5778475, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844502.5171013, "t_recv": 1791844512.5416567, "timings": {"prompt_n": 4, "prompt_ms": 333.282, "predicted_n": 512, "predicted_ms": 9688.63, "predicted_per_second": 52.74223497026928, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844512.541688, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844516.5852504, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844521.5929961, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844512.5418031, "t_recv": 1791844522.612202, "timings": {"prompt_n": 4, "prompt_ms": 334.194, "predicted_n": 512, "predicted_ms": 9733.412, "predicted_per_second": 52.49957568836087, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844522.6122334, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844526.6003652, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844531.6078997, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844522.6123416, "t_recv": 1791844532.6376023, "timings": {"prompt_n": 4, "prompt_ms": 337.394, "predicted_n": 512, "predicted_ms": 9685.547, "predicted_per_second": 52.75902331587467, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844532.6376338, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844536.6159317, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844541.6219783, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844532.637736, "t_recv": 1791844542.7150176, "timings": {"prompt_n": 4, "prompt_ms": 335.618, "predicted_n": 512, "predicted_ms": 9738.344, "predicted_per_second": 52.472987193715895, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844542.7150493, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844546.628968, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844551.6366036, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844542.7151577, "t_recv": 1791844552.7615874, "timings": {"prompt_n": 4, "prompt_ms": 338.47, "predicted_n": 512, "predicted_ms": 9705.101, "predicted_per_second": 52.65272355228451, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844552.7616184, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844556.6437101, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844561.6508653, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844552.7617433, "t_recv": 1791844562.8932083, "timings": {"prompt_n": 4, "prompt_ms": 336.647, "predicted_n": 512, "predicted_ms": 9792.034, "predicted_per_second": 52.18527631746377, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844562.89324, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844566.6579473, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844571.663027, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844562.8933172, "t_recv": 1791844572.9258182, "timings": {"prompt_n": 4, "prompt_ms": 335.88, "predicted_n": 512, "predicted_ms": 9694.245, "predicted_per_second": 52.711686160190915, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844572.9258492, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844576.6700501, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844581.6779845, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844572.9259052, "t_recv": 1791844583.0581677, "timings": {"prompt_n": 4, "prompt_ms": 338.8, "predicted_n": 512, "predicted_ms": 9790.097, "predicted_per_second": 52.195601330609904, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844583.0582004, "backend": "vulkan"}
+{"kind": "window", "t0": 1791844462.3199685, "t1": 1791844583.0581677, "n_requests": 12, "cache_reused": true, "tokens": 6144, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844583.0582826, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844586.685414, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844591.692942, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844596.7002573, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844601.7077274, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844606.715037, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844611.7224822, "backend": "vulkan"}
+{"kind": "idle", "label": "settle_after", "t0": 1791844583.058296, "t1": 1791844613.0586948, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844613.05871, "backend": "vulkan"}
+{"kind": "cell_end", "contaminated": false, "flags": [], "ollama_requests": 0, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791844613.0632908, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844616.729657, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844621.7374067, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844626.7449727, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844631.7523575, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844636.7599046, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844641.767669, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844646.7750778, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844651.7825248, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844656.7901547, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844661.797683, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844666.8053434, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844671.8128731, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844676.820569, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844681.8272967, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844686.8349035, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844691.8420737, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844696.8495727, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844701.857113, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844706.8646107, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844711.872222, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844716.8799186, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844721.887176, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844726.8947577, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844731.9022067, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844736.909844, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844741.9170895, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844746.9228716, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844751.9307833, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844756.9381096, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844761.9457426, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844766.9533238, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844771.960785, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844776.9684494, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844781.9758475, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844786.9835026, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844791.9909105, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844796.9978602, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844802.0051458, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844807.0125225, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844812.0202918, "backend": "vulkan"}
+{"kind": "idle", "label": "wait_for_gap", "t0": 1791844613.0633843, "t1": 1791844815.5005414, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791844815.500572, "backend": "vulkan"}
+{"kind": "cell_start", "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791844815.5008435, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844817.0259843, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844822.032748, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844827.0386205, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844832.0530882, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844837.066666, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844842.0808249, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844847.0948162, "backend": "vulkan"}
+{"kind": "fill", "t0": 1791844815.5010695, "t1": 1791844848.5197997, "timings": {"prompt_n": 28676, "prompt_ms": 33009.243, "predicted_n": 1, "predicted_ms": 0.001, "predicted_per_second": 0.0, "cache_n": 4092}, "tokens_cached": 32768, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791844848.519909, "backend": "vulkan"}
+{"kind": "probe", "t0": 1791844848.5200791, "t1": 1791844850.284952, "timings": {"prompt_n": 4, "prompt_ms": 338.364, "predicted_n": 64, "predicted_ms": 1418.642, "predicted_per_second": 44.40866688001624, "cache_n": 32764}, "cache_reused": true, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791844850.285066, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844852.1023688, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844857.1100752, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844862.117314, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844867.1232336, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844872.1307209, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844877.1384819, "backend": "vulkan"}
+{"kind": "idle", "label": "settle_before", "t0": 1791844850.2851255, "t1": 1791844880.285595, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791844880.2856243, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844882.1456935, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844887.1531308, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844880.2861693, "t_recv": 1791844892.0099773, "timings": {"prompt_n": 4, "prompt_ms": 343.189, "predicted_n": 512, "predicted_ms": 11369.586, "predicted_per_second": 44.9444685145088, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791844892.0100899, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844892.1586208, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844897.1657622, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844902.1729639, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844892.010252, "t_recv": 1791844903.8015795, "timings": {"prompt_n": 4, "prompt_ms": 343.952, "predicted_n": 512, "predicted_ms": 11437.218, "predicted_per_second": 44.678697214654825, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791844903.80169, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844907.1804187, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844912.190314, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844903.801861, "t_recv": 1791844915.6198747, "timings": {"prompt_n": 4, "prompt_ms": 339.954, "predicted_n": 512, "predicted_ms": 11468.931, "predicted_per_second": 44.55515514043985, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791844915.6199841, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844917.1976032, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844922.206214, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844927.2145202, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844915.620137, "t_recv": 1791844927.5203655, "timings": {"prompt_n": 4, "prompt_ms": 343.892, "predicted_n": 512, "predicted_ms": 11546.737, "predicted_per_second": 44.254926738177204, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791844927.5204546, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844932.2225916, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844937.2296154, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844927.520624, "t_recv": 1791844939.2742035, "timings": {"prompt_n": 4, "prompt_ms": 346.272, "predicted_n": 512, "predicted_ms": 11397.416, "predicted_per_second": 44.83472394093539, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791844939.274312, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844942.2367778, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844947.2440877, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844939.274528, "t_recv": 1791844951.1158607, "timings": {"prompt_n": 4, "prompt_ms": 342.961, "predicted_n": 512, "predicted_ms": 11488.578, "predicted_per_second": 44.47895988520076, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791844951.1159327, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844952.251982, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844957.2596557, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844962.2670703, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844951.1160371, "t_recv": 1791844962.9464753, "timings": {"prompt_n": 4, "prompt_ms": 346.035, "predicted_n": 512, "predicted_ms": 11474.898, "predicted_per_second": 44.53198625382117, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791844962.9465823, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844967.2745824, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844972.282443, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844962.946787, "t_recv": 1791844974.792882, "timings": {"prompt_n": 4, "prompt_ms": 341.926, "predicted_n": 512, "predicted_ms": 11494.47, "predicted_per_second": 44.45616022313339, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791844974.7929916, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844977.2900615, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844982.2978609, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844974.7931685, "t_recv": 1791844986.7715216, "timings": {"prompt_n": 4, "prompt_ms": 345.013, "predicted_n": 512, "predicted_ms": 11623.185, "predicted_per_second": 43.963853281178956, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791844986.77163, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844987.30553, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844992.313449, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791844997.3218088, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844986.7717977, "t_recv": 1791844998.5157857, "timings": {"prompt_n": 4, "prompt_ms": 347.551, "predicted_n": 512, "predicted_ms": 11386.257, "predicted_per_second": 44.878663813753725, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791844998.5158958, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845002.3287568, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845007.353841, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791844998.51607, "t_recv": 1791845010.295775, "timings": {"prompt_n": 4, "prompt_ms": 343.23, "predicted_n": 512, "predicted_ms": 11426.155, "predicted_per_second": 44.7219558985503, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791845010.2958865, "backend": "vulkan"}
+{"kind": "window", "t0": 1791844880.2861693, "t1": 1791845010.295775, "n_requests": 11, "cache_reused": true, "tokens": 5632, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791845010.2959547, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845012.3613691, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845017.3688583, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845022.37647, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845027.384025, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845032.3918436, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845037.3991168, "backend": "vulkan"}
+{"kind": "idle", "label": "settle_after", "t0": 1791845010.2959678, "t1": 1791845040.2963781, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791845040.2964077, "backend": "vulkan"}
+{"kind": "cell_end", "contaminated": false, "flags": [], "ollama_requests": 0, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791845040.3030345, "backend": "vulkan"}
+{"kind": "cell_start", "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845040.3031213, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845042.405338, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845047.411849, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845052.4175458, "backend": "vulkan"}
+{"kind": "fill", "t0": 1791845040.3032022, "t1": 1791845053.613542, "timings": {"prompt_n": 12292, "prompt_ms": 12835.585, "predicted_n": 1, "predicted_ms": 0.001, "predicted_per_second": 0.0, "cache_n": 4092}, "tokens_cached": 16384, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845053.613603, "backend": "vulkan"}
+{"kind": "probe", "t0": 1791845053.613737, "t1": 1791845055.276246, "timings": {"prompt_n": 4, "prompt_ms": 333.22, "predicted_n": 64, "predicted_ms": 1323.306, "predicted_per_second": 47.608036236516725, "cache_n": 16380}, "cache_reused": true, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845055.2763088, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845057.4233396, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845062.430304, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845067.4377983, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845072.4453814, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845077.4530296, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845082.4604266, "backend": "vulkan"}
+{"kind": "idle", "label": "settle_before", "t0": 1791845055.2763782, "t1": 1791845085.2768672, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845085.2768974, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845087.4675171, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845092.4742494, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791845085.2772524, "t_recv": 1791845095.9209151, "timings": {"prompt_n": 4, "prompt_ms": 338.294, "predicted_n": 512, "predicted_ms": 10298.9, "predicted_per_second": 49.61694938294381, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845095.9209795, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845097.4815645, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845102.488678, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791845095.921116, "t_recv": 1791845106.6416588, "timings": {"prompt_n": 4, "prompt_ms": 336.108, "predicted_n": 512, "predicted_ms": 10378.856, "predicted_per_second": 49.234713344129645, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845106.6417272, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845107.4959564, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845112.5030944, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791845106.6418471, "t_recv": 1791845117.3593335, "timings": {"prompt_n": 4, "prompt_ms": 338.204, "predicted_n": 512, "predicted_ms": 10373.329, "predicted_per_second": 49.260946028030155, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845117.3593953, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845117.50883, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845122.5158577, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845127.5231476, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791845117.3595123, "t_recv": 1791845128.0204692, "timings": {"prompt_n": 4, "prompt_ms": 338.726, "predicted_n": 512, "predicted_ms": 10316.908, "predicted_per_second": 49.53034378129572, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845128.0205283, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845132.530642, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845137.5378137, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791845128.0206172, "t_recv": 1791845138.7146256, "timings": {"prompt_n": 4, "prompt_ms": 336.153, "predicted_n": 512, "predicted_ms": 10351.759, "predicted_per_second": 49.36359125053046, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845138.7146726, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845142.5451012, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845147.551827, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791845138.7148132, "t_recv": 1791845149.4185197, "timings": {"prompt_n": 4, "prompt_ms": 337.897, "predicted_n": 512, "predicted_ms": 10360.528, "predicted_per_second": 49.32181062586771, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845149.4185815, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845152.559456, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845157.5674949, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791845149.4187176, "t_recv": 1791845160.071875, "timings": {"prompt_n": 4, "prompt_ms": 338.525, "predicted_n": 512, "predicted_ms": 10309.801, "predicted_per_second": 49.564487229190945, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845160.071937, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845162.5752995, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845167.582433, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791845160.0720587, "t_recv": 1791845170.7240133, "timings": {"prompt_n": 4, "prompt_ms": 338.244, "predicted_n": 512, "predicted_ms": 10307.023, "predicted_per_second": 49.57784609581254, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845170.7240746, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845172.5900707, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845177.59917, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791845170.7242122, "t_recv": 1791845181.4807386, "timings": {"prompt_n": 4, "prompt_ms": 341.097, "predicted_n": 512, "predicted_ms": 10409.623, "predicted_per_second": 49.08919372007997, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845181.4807913, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845182.6080797, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845187.6164572, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791845181.4809134, "t_recv": 1791845192.312858, "timings": {"prompt_n": 4, "prompt_ms": 340.523, "predicted_n": 512, "predicted_ms": 10484.966, "predicted_per_second": 48.73644797703684, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845192.3129199, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845192.6221778, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845197.629479, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845202.6371086, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791845192.313063, "t_recv": 1791845202.9998338, "timings": {"prompt_n": 4, "prompt_ms": 337.18, "predicted_n": 512, "predicted_ms": 10343.395, "predicted_per_second": 49.4035082291646, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845202.9998817, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845207.6441438, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845212.6509395, "backend": "vulkan"}
+{"kind": "decode_request", "t_send": 1791845203.0001256, "t_recv": 1791845213.7076867, "timings": {"prompt_n": 4, "prompt_ms": 337.272, "predicted_n": 512, "predicted_ms": 10364.103, "predicted_per_second": 49.304797530476115, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845213.707766, "backend": "vulkan"}
+{"kind": "window", "t0": 1791845085.2772524, "t1": 1791845213.7076867, "n_requests": 12, "cache_reused": true, "tokens": 6144, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845213.7078488, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845217.6586847, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845222.6659937, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845227.6734674, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845232.6811616, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845237.688598, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845242.6963372, "backend": "vulkan"}
+{"kind": "idle", "label": "settle_after", "t0": 1791845213.7078614, "t1": 1791845243.7083502, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845243.7083807, "backend": "vulkan"}
+{"kind": "cell_end", "contaminated": false, "flags": [], "ollama_requests": 0, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791845243.7144, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845247.7039738, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845252.7114043, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845257.7192197, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845262.7250772, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845267.7314627, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845272.751969, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845277.7595665, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845282.7673397, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845287.7747884, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845292.7825098, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845297.7901263, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845302.797834, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845307.8052652, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845312.8130078, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845317.820915, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845322.8277655, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845327.8351955, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845332.8427727, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845337.8504388, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845342.8584452, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845347.8653266, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845352.8726523, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845357.88026, "backend": "vulkan"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845362.8879175, "backend": "vulkan"}
+{"kind": "idle", "label": "bare_idle_block", "t0": 1791845243.8280892, "t1": 1791845363.8285723, "model": "qwen36-35b-a3b-q8", "round": 1, "t": 1791845363.8286006, "backend": "vulkan"}
+{"kind": "server_up", "model": "qwen36-35b-a3b-q8", "round": 1, "load_s": 4.009331391998785, "t": 1791845367.8407805, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845367.893755, "backend": "rocm"}
+{"kind": "tokenized", "model": "qwen36-35b-a3b-q8", "n_tokens": 51419, "t": 1791845367.9084084, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845372.9011862, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845377.9086728, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845382.9164367, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845387.9231088, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845392.9307742, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845397.9382246, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845402.9458206, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845407.9531608, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845412.9607832, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845417.9682944, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845422.976076, "backend": "rocm"}
+{"kind": "idle", "label": "loaded_idle", "t0": 1791845367.9084296, "t1": 1791845427.90886, "model": "qwen36-35b-a3b-q8", "round": 1, "t": 1791845427.9088912, "backend": "rocm"}
+{"kind": "cell_start", "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845427.9091487, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845427.9843235, "backend": "rocm"}
+{"kind": "fill", "t0": 1791845427.9092338, "t1": 1791845428.0998776, "timings": {"prompt_n": 64, "prompt_ms": 186.203, "predicted_n": 1, "predicted_ms": 0.001, "predicted_per_second": 0.0, "cache_n": 0}, "tokens_cached": 64, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845428.099892, "backend": "rocm"}
+{"kind": "probe", "t0": 1791845428.0999887, "t1": 1791845429.4932804, "timings": {"prompt_n": 4, "prompt_ms": 54.754, "predicted_n": 64, "predicted_ms": 1336.941, "predicted_per_second": 47.122498300224166, "cache_n": 60}, "cache_reused": true, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845429.493296, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845432.9921112, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845437.9993653, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845443.0071445, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845448.014849, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845453.022809, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845458.0298874, "backend": "rocm"}
+{"kind": "idle", "label": "settle_before", "t0": 1791845429.4933646, "t1": 1791845459.4935215, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845459.493553, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845463.037118, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845468.043319, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845459.493882, "t_recv": 1791845470.2790804, "timings": {"prompt_n": 4, "prompt_ms": 57.724, "predicted_n": 512, "predicted_ms": 10724.432, "predicted_per_second": 47.64821111271907, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845470.2790961, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845473.0500667, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845478.0568042, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845470.279194, "t_recv": 1791845481.0888994, "timings": {"prompt_n": 4, "prompt_ms": 49.492, "predicted_n": 512, "predicted_ms": 10733.942, "predicted_per_second": 47.60599600780403, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845481.0889146, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845483.0634599, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845488.0698438, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845481.088977, "t_recv": 1791845491.8711576, "timings": {"prompt_n": 4, "prompt_ms": 52.366, "predicted_n": 512, "predicted_ms": 10728.488, "predicted_per_second": 47.630197284090734, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845491.8711731, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845493.0764894, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845498.083019, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845491.8712454, "t_recv": 1791845502.646827, "timings": {"prompt_n": 4, "prompt_ms": 51.949, "predicted_n": 512, "predicted_ms": 10722.455, "predicted_per_second": 47.65699646209753, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845502.6468382, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845503.0922027, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845508.0985, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845513.1054842, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845502.6706398, "t_recv": 1791845513.4337611, "timings": {"prompt_n": 4, "prompt_ms": 51.57, "predicted_n": 512, "predicted_ms": 10709.138, "predicted_per_second": 47.71625876891305, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845513.4337757, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845518.11241, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845523.1189651, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845513.433875, "t_recv": 1791845524.193542, "timings": {"prompt_n": 4, "prompt_ms": 51.901, "predicted_n": 512, "predicted_ms": 10705.931, "predicted_per_second": 47.73055234523742, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845524.193556, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845528.1259348, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845533.132332, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845524.193653, "t_recv": 1791845534.9576426, "timings": {"prompt_n": 4, "prompt_ms": 51.161, "predicted_n": 512, "predicted_ms": 10711.319, "predicted_per_second": 47.706542957034515, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845534.9576578, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845538.1392975, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845543.145521, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845534.9578288, "t_recv": 1791845545.7215447, "timings": {"prompt_n": 4, "prompt_ms": 51.031, "predicted_n": 512, "predicted_ms": 10711.117, "predicted_per_second": 47.7074426504724, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845545.7215595, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845548.152413, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845553.158735, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845545.7216725, "t_recv": 1791845556.480284, "timings": {"prompt_n": 4, "prompt_ms": 52.831, "predicted_n": 512, "predicted_ms": 10704.217, "predicted_per_second": 47.73819514309173, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845556.4803002, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845558.1657684, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845563.1720152, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845556.4803987, "t_recv": 1791845567.2372322, "timings": {"prompt_n": 4, "prompt_ms": 51.888, "predicted_n": 512, "predicted_ms": 10703.165, "predicted_per_second": 47.7428872674578, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845567.2372491, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845568.178968, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845573.1849895, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845567.2373493, "t_recv": 1791845578.0045295, "timings": {"prompt_n": 4, "prompt_ms": 51.239, "predicted_n": 512, "predicted_ms": 10714.446, "predicted_per_second": 47.69261985174035, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845578.0045469, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845578.1922107, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845583.1985493, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845588.204546, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845578.0046444, "t_recv": 1791845588.7676625, "timings": {"prompt_n": 4, "prompt_ms": 52.013, "predicted_n": 512, "predicted_ms": 10709.253, "predicted_per_second": 47.715746373719995, "cache_n": 60}, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845588.7676785, "backend": "rocm"}
+{"kind": "window", "t0": 1791845459.493882, "t1": 1791845588.7676625, "n_requests": 12, "cache_reused": true, "tokens": 6144, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845588.7677922, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845593.2121508, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845598.2197566, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845603.2251675, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845608.2322762, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845613.2398186, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845618.2475514, "backend": "rocm"}
+{"kind": "idle", "label": "settle_after", "t0": 1791845588.767806, "t1": 1791845618.768024, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845618.7680547, "backend": "rocm"}
+{"kind": "cell_end", "contaminated": false, "flags": [], "ollama_requests": 0, "model": "qwen36-35b-a3b-q8", "depth": 64, "round": 1, "t": 1791845618.7750316, "backend": "rocm"}
+{"kind": "cell_start", "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845618.7751124, "backend": "rocm"}
+{"kind": "fill", "t0": 1791845618.7751582, "t1": 1791845622.624712, "timings": {"prompt_n": 4036, "prompt_ms": 3846.257, "predicted_n": 1, "predicted_ms": 0.001, "predicted_per_second": 0.0, "cache_n": 60}, "tokens_cached": 4096, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845622.6247716, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845623.2565243, "backend": "rocm"}
+{"kind": "probe", "t0": 1791845622.6248827, "t1": 1791845624.0291612, "timings": {"prompt_n": 4, "prompt_ms": 55.842, "predicted_n": 64, "predicted_ms": 1345.694, "predicted_per_second": 46.815992342984366, "cache_n": 4092}, "cache_reused": true, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845624.0291948, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845628.2642574, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845633.2710576, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845638.2784414, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845643.2860436, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845648.2936056, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845653.3011978, "backend": "rocm"}
+{"kind": "idle", "label": "settle_before", "t0": 1791845624.0292788, "t1": 1791845654.0294592, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845654.029475, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845658.3097754, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845663.3176358, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845654.0296392, "t_recv": 1791845664.9858117, "timings": {"prompt_n": 4, "prompt_ms": 56.167, "predicted_n": 512, "predicted_ms": 10897.161, "predicted_per_second": 46.89294762186225, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845664.985834, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845668.3245928, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845673.330858, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845664.9858768, "t_recv": 1791845675.9458284, "timings": {"prompt_n": 4, "prompt_ms": 51.644, "predicted_n": 512, "predicted_ms": 10904.987, "predicted_per_second": 46.85929474285481, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845675.945864, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845678.337599, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845683.3439162, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845675.945978, "t_recv": 1791845686.9030883, "timings": {"prompt_n": 4, "prompt_ms": 51.661, "predicted_n": 512, "predicted_ms": 10902.657, "predicted_per_second": 46.869309013390044, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845686.9031215, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845688.3505273, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845693.356403, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845686.9032288, "t_recv": 1791845697.8650458, "timings": {"prompt_n": 4, "prompt_ms": 51.093, "predicted_n": 512, "predicted_ms": 10907.788, "predicted_per_second": 46.84726179129994, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845697.8650808, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845698.3632548, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845703.3686426, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845708.3744547, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845697.8651943, "t_recv": 1791845708.8228068, "timings": {"prompt_n": 4, "prompt_ms": 51.395, "predicted_n": 512, "predicted_ms": 10903.818, "predicted_per_second": 46.86431853503058, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845708.822828, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845713.3812327, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845718.3872004, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845708.822871, "t_recv": 1791845719.7854702, "timings": {"prompt_n": 4, "prompt_ms": 51.072, "predicted_n": 512, "predicted_ms": 10908.537, "predicted_per_second": 46.84404517306032, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845719.7854924, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845723.394024, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845728.400128, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845719.7855463, "t_recv": 1791845730.7436037, "timings": {"prompt_n": 4, "prompt_ms": 51.475, "predicted_n": 512, "predicted_ms": 10904.501, "predicted_per_second": 46.861383203137855, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845730.7436266, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845733.4068718, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845738.4130948, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845730.7436688, "t_recv": 1791845741.7061143, "timings": {"prompt_n": 4, "prompt_ms": 51.443, "predicted_n": 512, "predicted_ms": 10908.602, "predicted_per_second": 46.84376604811505, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845741.7061384, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845743.4200962, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845748.4265215, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845741.7061813, "t_recv": 1791845752.6661732, "timings": {"prompt_n": 4, "prompt_ms": 51.965, "predicted_n": 512, "predicted_ms": 10905.64, "predicted_per_second": 46.85648893600009, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845752.6662076, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845753.4332495, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845758.4398007, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845763.4450424, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845752.6663175, "t_recv": 1791845763.6240516, "timings": {"prompt_n": 4, "prompt_ms": 51.387, "predicted_n": 512, "predicted_ms": 10903.83, "predicted_per_second": 46.86426695940784, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845763.6240847, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845768.451885, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845773.458088, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791845763.624189, "t_recv": 1791845774.5856738, "timings": {"prompt_n": 4, "prompt_ms": 52.163, "predicted_n": 512, "predicted_ms": 10906.579, "predicted_per_second": 46.85245483482951, "cache_n": 4092}, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845774.5857081, "backend": "rocm"}
+{"kind": "window", "t0": 1791845654.0296392, "t1": 1791845774.5856738, "n_requests": 11, "cache_reused": true, "tokens": 5632, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845774.5858066, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845778.4654994, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845783.4731183, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845788.48085, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845793.4886553, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845798.4961705, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845803.5037978, "backend": "rocm"}
+{"kind": "idle", "label": "settle_after", "t0": 1791845774.58582, "t1": 1791845804.5860662, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845804.586095, "backend": "rocm"}
+{"kind": "cell_end", "contaminated": false, "flags": [], "ollama_requests": 0, "model": "qwen36-35b-a3b-q8", "depth": 4096, "round": 1, "t": 1791845804.591893, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845808.511339, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845813.5194046, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845818.5253077, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845823.5313802, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845828.5371764, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845833.5440276, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845838.5516589, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845843.5596576, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845848.5672421, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845853.5746486, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845858.5814514, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845863.5886602, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845868.5962913, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845873.603783, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845878.6111922, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845883.6193452, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845888.626046, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845893.6336946, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845898.6412902, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845903.6488993, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845908.6564243, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845913.6641734, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845918.6716702, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845923.679112, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845928.6866586, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845933.6944976, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845938.7022684, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845943.709561, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845948.7172995, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845953.7230206, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845958.730777, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845963.7380378, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845968.7456963, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845973.753317, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845978.7607076, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845983.7683246, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845988.7758608, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845993.78335, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791845998.7907994, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846003.7983186, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846008.8059313, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846013.813583, "backend": "rocm"}
+{"kind": "idle", "label": "wait_for_gap", "t0": 1791845804.5919979, "t1": 1791846015.5002017, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846015.5002313, "backend": "rocm"}
+{"kind": "cell_start", "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846015.5005298, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846018.819881, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846023.8262782, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846028.8400898, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846033.853855, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846038.8677368, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846043.8815203, "backend": "rocm"}
+{"kind": "fill", "t0": 1791846015.5008154, "t1": 1791846048.5988364, "timings": {"prompt_n": 28676, "prompt_ms": 33084.508, "predicted_n": 1, "predicted_ms": 0.001, "predicted_per_second": 0.0, "cache_n": 4092}, "tokens_cached": 32768, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846048.599031, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846048.8886054, "backend": "rocm"}
+{"kind": "probe", "t0": 1791846048.5992978, "t1": 1791846050.1914592, "timings": {"prompt_n": 4, "prompt_ms": 67.376, "predicted_n": 64, "predicted_ms": 1509.629, "predicted_per_second": 41.7321076900351, "cache_n": 32764}, "cache_reused": true, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846050.1915715, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846053.8961592, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846058.9037476, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846063.9115765, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846068.9193532, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846073.9251134, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846078.9320745, "backend": "rocm"}
+{"kind": "idle", "label": "settle_before", "t0": 1791846050.191638, "t1": 1791846080.192126, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846080.1921566, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846083.9388106, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846088.945122, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791846080.192605, "t_recv": 1791846092.4875724, "timings": {"prompt_n": 4, "prompt_ms": 65.027, "predicted_n": 512, "predicted_ms": 12219.808, "predicted_per_second": 41.817350976381945, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846092.4876816, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846093.9519558, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846098.9583442, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846103.9634628, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791846092.4878325, "t_recv": 1791846104.771855, "timings": {"prompt_n": 4, "prompt_ms": 60.254, "predicted_n": 512, "predicted_ms": 12216.265, "predicted_per_second": 41.8294789774125, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846104.7719643, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846108.9700754, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846113.97644, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791846104.7720969, "t_recv": 1791846117.0662465, "timings": {"prompt_n": 4, "prompt_ms": 59.06, "predicted_n": 512, "predicted_ms": 12225.822, "predicted_per_second": 41.79678061728692, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846117.0663552, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846118.9832652, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846123.9897316, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846128.9962616, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791846117.0665362, "t_recv": 1791846129.3553681, "timings": {"prompt_n": 4, "prompt_ms": 59.699, "predicted_n": 512, "predicted_ms": 12220.079, "predicted_per_second": 41.816423609045415, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846129.3554788, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [{"pid": 60352, "comm": "git", "cpu_pct": 47.3}], "t": 1791846134.0041604, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [{"pid": 60352, "comm": "git", "cpu_pct": 46.3}], "t": 1791846139.011396, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791846129.3556566, "t_recv": 1791846141.6886446, "timings": {"prompt_n": 4, "prompt_ms": 60.405, "predicted_n": 512, "predicted_ms": 12262.863, "predicted_per_second": 41.670529956992915, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846141.688769, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846144.018781, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791846141.6889307, "t_recv": 1791846153.9835596, "timings": {"prompt_n": 4, "prompt_ms": 59.651, "predicted_n": 512, "predicted_ms": 12226.211, "predicted_per_second": 41.795450773751575, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846153.9836705, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846155.0689414, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846167.1895032, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791846162.181123, "t_recv": 1791846174.4697735, "timings": {"prompt_n": 4, "prompt_ms": 61.487, "predicted_n": 512, "predicted_ms": 12216.466, "predicted_per_second": 41.828790748486504, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846174.4698846, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846177.9912374, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846182.9980636, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791846174.470029, "t_recv": 1791846186.779035, "timings": {"prompt_n": 4, "prompt_ms": 59.103, "predicted_n": 512, "predicted_ms": 12241.551, "predicted_per_second": 41.74307651048466, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846186.7791452, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846188.0050123, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846193.0114114, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846198.0192912, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791846186.7792916, "t_recv": 1791846199.068432, "timings": {"prompt_n": 4, "prompt_ms": 59.743, "predicted_n": 512, "predicted_ms": 12220.377, "predicted_per_second": 41.81540389465889, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846199.0685387, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846203.026706, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846208.0338995, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791846199.0686665, "t_recv": 1791846211.3761394, "timings": {"prompt_n": 4, "prompt_ms": 62.063, "predicted_n": 512, "predicted_ms": 12235.828, "predicted_per_second": 41.7626007819005, "cache_n": 32764}, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846211.3762712, "backend": "rocm"}
+{"kind": "window", "t0": 1791846080.192605, "t1": 1791846211.3761394, "n_requests": 10, "cache_reused": true, "tokens": 5120, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846211.3763242, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846213.0405087, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846218.0481067, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846223.055971, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846228.0637395, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846233.071374, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846238.078946, "backend": "rocm"}
+{"kind": "idle", "label": "settle_after", "t0": 1791846211.3763442, "t1": 1791846241.3767169, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846241.3767793, "backend": "rocm"}
+{"kind": "cell_end", "contaminated": true, "flags": [[1791846134.0042377, {"busy": [{"pid": 60352, "comm": "git", "cpu_pct": 47.3}]}], [1791846139.011446, {"busy": [{"pid": 60352, "comm": "git", "cpu_pct": 46.3}]}]], "ollama_requests": 0, "model": "qwen36-35b-a3b-q8", "depth": 32768, "round": 1, "t": 1791846241.3833482, "backend": "rocm"}
+{"kind": "cell_start", "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791846241.3834498, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846243.085148, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846248.0910676, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846253.1054838, "backend": "rocm"}
+{"kind": "fill", "t0": 1791846241.383533, "t1": 1791846254.5032718, "timings": {"prompt_n": 12292, "prompt_ms": 12947.15, "predicted_n": 1, "predicted_ms": 0.001, "predicted_per_second": 0.0, "cache_n": 4092}, "tokens_cached": 16384, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791846254.5033665, "backend": "rocm"}
+{"kind": "probe", "t0": 1791846254.5035546, "t1": 1791846256.000001, "timings": {"prompt_n": 4, "prompt_ms": 68.137, "predicted_n": 64, "predicted_ms": 1419.362, "predicted_per_second": 44.38613968811339, "cache_n": 16380}, "cache_reused": true, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791846256.0000665, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846258.1131294, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846263.1210713, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846268.1270642, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846273.1350596, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846278.1428063, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846283.1505322, "backend": "rocm"}
+{"kind": "idle", "label": "settle_before", "t0": 1791846256.0001388, "t1": 1791846286.0004344, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791846286.000466, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846288.1575918, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846293.1632233, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791846286.0008729, "t_recv": 1791846297.5423374, "timings": {"prompt_n": 4, "prompt_ms": 61.286, "predicted_n": 512, "predicted_ms": 11472.9, "predicted_per_second": 44.539741477743206, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791846297.5424025, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846298.1702158, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846303.1765518, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846308.1827123, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791846297.542544, "t_recv": 1791846309.0746777, "timings": {"prompt_n": 4, "prompt_ms": 54.854, "predicted_n": 512, "predicted_ms": 11471.333, "predicted_per_second": 44.54582566821135, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791846309.0747576, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846313.1896977, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846318.1961236, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791846309.0749047, "t_recv": 1791846320.6101787, "timings": {"prompt_n": 4, "prompt_ms": 56.156, "predicted_n": 512, "predicted_ms": 11473.711, "predicted_per_second": 44.53659326089005, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791846320.610241, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846323.2030215, "backend": "rocm"}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791846328.2094448, "backend": "rocm"}
+{"kind": "decode_request", "t_send": 1791846320.6103783, "t_recv": 1791846332.1508653, "timings": {"prompt_n": 4, "prompt_ms": 55.297, "predicted_n": 512, "predicted_ms": 11479.465, "predicted_per_second": 44.51426961099668, "cache_n": 16380}, "model": "qwen36-35b-a3b-q8", "depth": 16384, "round": 1, "t": 1791846332.15093, "backend": "rocm"}
