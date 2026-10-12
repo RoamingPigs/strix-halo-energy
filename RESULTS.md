@@ -29,6 +29,6 @@ Nothing about any other hardware, ROCm (not installed), batched serving, output 
 
 ## Things to know before quoting a number
 
-- The 9B model at depth 16,384 draws about 5 W more than at depth 4,096 (149.6 against 140.6 W) while its speed falls only 6%. I have no explanation. It repeated across all three rounds.
+- The 9B model at depth 16,384 draws about 9 W more than at depth 4,096 (149.6 against 140.6 W) while its speed falls only 6%. I have no explanation. It repeated across all three rounds.
 - The 26B model at depth 4,096 failed three times with a server error on junk output, so that cell has 2 repeats. Cause unknown.
 - Wall net J/token subtracts about 17 W of idle. Package net J/token is lower (for example 1.20 against 1.64 for the 26B model at depth 64). Say which one you mean.
