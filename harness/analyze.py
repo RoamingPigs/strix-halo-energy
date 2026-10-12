@@ -209,14 +209,20 @@ def expectations(agg, idle, rows, models):
 
 
 def crosscheck(plug_rows, t0, t1):
-    """S7: plug cumulative kWh against the integral of its polled watts, over [t0, t1]."""
+    """S7: plug cumulative kWh against the integral of its polled watts, over [t0, t1].
+    Sampling gaps longer than 60 s (a stopped and resumed run) split the span; each piece is compared and summed."""
     m = (plug_rows[:, 0] >= t0) & (plug_rows[:, 0] <= t1)
-    t = (plug_rows[m, 0] + plug_rows[m, 1]) / 2
-    w = plug_rows[m, 2]
-    kwh = plug_rows[m, 7]
-    integral_wh = float(np.trapezoid(w, t) / 3600.0)
-    counter_wh = float((kwh[-1] - kwh[0]) * 1000.0)
-    return {"integral_wh": integral_wh, "counter_wh": counter_wh, "diff_pct": 100 * (integral_wh - counter_wh) / counter_wh if counter_wh else None}
+    rows = plug_rows[m]
+    t = (rows[:, 0] + rows[:, 1]) / 2
+    cuts = [0] + [i + 1 for i in range(len(t) - 1) if t[i + 1] - t[i] > 60] + [len(t)]
+    integral_wh = counter_wh = 0.0
+    for a, b in zip(cuts, cuts[1:]):
+        if b - a < 2:
+            continue
+        integral_wh += float(np.trapezoid(rows[a:b, 2], t[a:b]) / 3600.0)
+        counter_wh += float((rows[b - 1, 7] - rows[a, 7]) * 1000.0)
+    return {"integral_wh": integral_wh, "counter_wh": counter_wh, "segments": len(cuts) - 1,
+            "diff_pct": 100 * (integral_wh - counter_wh) / counter_wh if counter_wh else None}
 
 
 def run(d: pathlib.Path, models_path: pathlib.Path):

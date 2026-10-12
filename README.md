@@ -20,3 +20,5 @@ My earlier published figures for this machine were partly formula-generated, and
 ## Licence
 
 Code and text: Apache-2.0.
+
+Results: see `RESULTS.md`. Deviations from the plan: `DEVIATIONS.md`.

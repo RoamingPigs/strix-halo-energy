@@ -1,0 +1,18 @@
+0.00.030.123 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.030.215 I srv          init: The UI is disabled
+0.00.030.217 I srv          init: Use --ui/--no-ui (or deprecated --webui/--no-webui) to enable/disable
+0.00.030.273 W srv  llama_server: -----------------
+0.00.030.274 W srv  llama_server: CORS is set to allow all origins ('*') and no API key is set
+0.00.030.275 W srv  llama_server: this can be a security risk (cross-origin attacks)
+0.00.030.275 W srv  llama_server: more info: https://github.com/ggml-org/llama.cpp/pull/25655
+0.00.030.275 W srv  llama_server: -----------------
+0.00.031.507 I srv    load_model: loading model '/home/cisco/models/lifeops/gemma-4-26B-A4B-it-qat-UD-Q4_K_XL.gguf'
+0.00.668.706 W load: override 'tokenizer.ggml.add_bos_token' to 'true' for Gemma4
+0.00.713.741 W load: control-looking token:    212 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.00.714.062 W load: control-looking token:     50 '<|tool_response>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.00.730.187 W load: special_eog_ids contains '<|tool_response>', removing '</s>' token from EOG list
+0.02.308.157 I cmn          init: llama threadpool init, n_threads = 16
+0.02.422.861 I srv    load_model: initializing, n_slots = 1, n_ctx_slot = 36864, kv_unified = 'false'
+0.02.428.370 I srv  llama_server: model loaded
+0.02.428.375 I srv  llama_server: listening on http://127.0.0.1:8099
+1.03.004.044 I srv    operator(): operator(): cleaning up before exit...
