@@ -35,6 +35,9 @@ def now() -> float:
     return time.time()
 
 
+CUR_BACKEND = None   # set while a block of a paired plan runs; stamped on every event written meanwhile
+
+
 class Log:
     def __init__(self, path: pathlib.Path):
         self.f = open(path, "a", buffering=1)
@@ -42,6 +45,8 @@ class Log:
 
     def write(self, **kw):
         kw.setdefault("t", now())
+        if CUR_BACKEND is not None:
+            kw.setdefault("backend", CUR_BACKEND)
         with self.lock:
             self.f.write(json.dumps(kw) + "\n")
 
@@ -392,6 +397,8 @@ def main():
     ap.add_argument("--only-rounds", type=int, default=0, help="smoke tests: run only this many rounds")
     ap.add_argument("--only-models", default="", help="smoke tests: comma list of model keys")
     ap.add_argument("--only-depths", default="", help="smoke tests: comma list of depths")
+    ap.add_argument("--builds", default="", help="paired plans: backend=dir,backend=dir; dirs are under --build-root")
+    ap.add_argument("--build-root", default="")
     ap.add_argument("--cells-file", default="", help="JSON list of [round, model, depth]: run only these cells, in plan order")
     ap.add_argument("--no-hash", action="store_true")
     ap.add_argument("--no-step", action="store_true")
@@ -423,11 +430,16 @@ def main():
             wanted = {tuple(c) for c in json.loads(pathlib.Path(args.cells_file).read_text())}
         failed = []
 
-        def run_block(model_key, depths, rnd, step=False):
+        builds = dict(kv.split("=", 1) for kv in args.builds.split(",") if kv)
+
+        def run_block(model_key, depths, rnd, step=False, backend=None):
+            global CUR_BACKEND
+            build = f"{args.build_root}/{builds[backend]}" if backend else args.build
+            CUR_BACKEND = backend
             m = models[model_key]
             path = f"{args.models_dir}/{m['file']}"
-            tag = f"r{rnd}-{model_key}"
-            srv = Server(args.build, path, out, tag)
+            tag = f"r{rnd}-{model_key}" + (f"-{backend}" if backend else "")
+            srv = Server(build, path, out, tag)
             t_load = srv.start()
             log.write(kind="server_up", model=model_key, round=rnd, load_s=t_load)
             try:
@@ -446,17 +458,18 @@ def main():
                         continue
                     try:
                         if run_cell(log, guard, ids, model_key, d, rnd, args.window, args.settle):
-                            contaminated.append((model_key, d, rnd))
+                            contaminated.append((model_key, d, rnd, backend))
                     except CellFailed:
-                        failed.append((model_key, d, rnd))
+                        failed.append((model_key, d, rnd, backend))
                         srv.stop()
-                        srv = Server(args.build, path, out, f"{tag}-restart{len(failed)}")
+                        srv = Server(build, path, out, f"{tag}-restart{len(failed)}")
                         t_load = srv.start()
                         log.write(kind="server_up", model=model_key, round=rnd, load_s=t_load, restart=True)
                         idle(log, "loaded_idle", 60, model=model_key, round=rnd)
             finally:
                 srv.stop()
             idle(log, "bare_idle_block", args.block_idle, model=model_key, round=rnd)
+            CUR_BACKEND = None
 
         if not args.no_step:
             run_block(next(iter(models)), [], 0, step=True)
@@ -468,11 +481,11 @@ def main():
                     continue
                 if wanted is not None and not any((rd["round"], b["model"], d) in wanted for d in b["depths"]):
                     continue
-                run_block(b["model"], b["depths"], rd["round"])
-        for (mk, d, rnd) in contaminated[:] + failed[:]:
-            log.write(kind="rerun_contaminated", model=mk, depth=d, round=rnd)
+                run_block(b["model"], b["depths"], rd["round"], backend=b.get("backend"))
+        for (mk, d, rnd, be) in contaminated[:] + failed[:]:
+            log.write(kind="rerun_contaminated", model=mk, depth=d, round=rnd, backend=be)
             wanted = None
-            run_block(mk, [d], rnd)
+            run_block(mk, [d], rnd, backend=be)
         idle(log, "bare_idle_end", args.bare_idle)
         log.write(kind="done")
     finally:

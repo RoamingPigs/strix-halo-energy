@@ -1,0 +1,576 @@
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829442.1485531}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829447.158586}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829452.167155}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829457.175541}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829462.1841362}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829467.1927557}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829472.1996815}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829477.2080061}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829482.216552}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829487.2248805}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829492.2336764}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829497.241044}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829502.2494683}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829507.2580984}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829512.2667809}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829517.2736115}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829522.2818499}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829527.2904644}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829532.2988338}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829537.3077686}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829542.316377}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829547.3247957}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829552.3332512}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829557.3413422}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829562.3480313}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829567.3565736}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829572.3638892}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829577.370094}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829582.378474}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829587.3870666}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829592.395282}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829597.4035711}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829602.4119}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829607.4200113}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829612.4287183}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829617.4369192}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829622.4453516}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829627.454158}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829632.4624264}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829637.4710622}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829642.4793866}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829647.4876668}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829652.495893}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829657.5043614}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829662.5127325}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829667.5211995}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829672.529132}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829677.5367496}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829682.545392}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829687.5539682}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829692.5623767}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829697.5706367}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829702.5783434}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829707.5863822}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829712.5948348}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829717.6031592}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829722.6107502}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829727.6192114}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829732.6276715}
+{"kind": "idle", "label": "bare_idle_start", "t0": 1791829437.1288311, "t1": 1791829737.1289768, "t": 1791829737.128987}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829737.6344976}
+{"kind": "server_up", "model": "qwen35-9b-q4km", "round": 0, "load_s": 2.0033593450207263, "t": 1791829739.1840026}
+{"kind": "tokenized", "model": "qwen35-9b-q4km", "n_tokens": 51419, "t": 1791829739.245224}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829742.6424944}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829747.6512713}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829752.6597555}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829757.6684787}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829762.7011297}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829767.708985}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829772.7176147}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829777.7261577}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829782.735216}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829787.7432525}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829792.7521076}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829797.7606387}
+{"kind": "idle", "label": "loaded_idle", "t0": 1791829739.2452502, "t1": 1791829799.2457352, "model": "qwen35-9b-q4km", "round": 0, "t": 1791829799.2457645}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791829802.7685475}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829807.7764528}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829812.7824984}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791829817.786919}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829822.7958398}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829827.8049912}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829832.8123496}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829837.8209279}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829842.8298829}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829847.8376732}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829852.8465626}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829857.855292}
+{"kind": "idle", "label": "step_idle_before", "t0": 1791829799.4283454, "t1": 1791829859.428708, "model": "qwen35-9b-q4km", "t": 1791829859.428734}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829862.863188}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829867.8697517}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829872.8762045}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829877.883839}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829882.891339}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829887.8992395}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829892.905865}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829897.911338}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829902.9192367}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829907.9261904}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829912.933952}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829917.9425318}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829922.9496782}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829927.9614794}
+{"kind": "step_load", "t0": 1791829859.4292593, "t1": 1791829928.7142823, "model": "qwen35-9b-q4km", "t": 1791829928.7142832}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829932.9683874}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829937.9747617}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829942.9835002}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829947.9921882}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829953.0005474}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829958.0093725}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829963.0183716}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829968.027402}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829973.0355954}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829978.042128}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829983.050939}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829988.0598392}
+{"kind": "idle", "label": "step_idle_after", "t0": 1791829928.7143161, "t1": 1791829988.7147942, "model": "qwen35-9b-q4km", "t": 1791829988.7148209}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829993.0689094}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791829998.0781112}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830003.0869575}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830008.095608}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830013.1043656}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830018.1133738}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830023.1203969}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830028.1286879}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830033.1359615}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830038.142726}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830043.1517158}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830048.1605465}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830053.169271}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830058.1780682}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830063.1862833}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830068.1929538}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830073.201621}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830078.2100818}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830083.218745}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830088.2274756}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830093.2364845}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830098.2449963}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b", "llama3.2:3b"], "busy": [], "t": 1791830103.252231}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830108.2610166}
+{"kind": "idle", "label": "bare_idle_block", "t0": 1791829988.8795092, "t1": 1791830108.8799913, "model": "qwen35-9b-q4km", "round": 0, "t": 1791830108.880021}
+{"kind": "server_up", "model": "gemma4-26b-a4b-q4", "round": 1, "load_s": 3.007412275997922, "t": 1791830111.8905783}
+{"kind": "tokenized", "model": "gemma4-26b-a4b-q4", "n_tokens": 51332, "t": 1791830111.9991267}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830113.270199}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830118.2792435}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830123.2872033}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830128.2957723}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830133.3037066}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830138.3124213}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830143.3207014}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830148.3293798}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830153.3372562}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830158.3437288}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830163.3526747}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830168.3614526}
+{"kind": "idle", "label": "loaded_idle", "t0": 1791830111.999194, "t1": 1791830171.999786, "model": "gemma4-26b-a4b-q4", "round": 1, "t": 1791830171.9998164}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830173.3703773}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830178.3791378}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830183.3877528}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830188.39642}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830193.40554}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830198.4143555}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830203.422966}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830208.4317849}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830213.439028}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830218.4462724}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830223.4550362}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830228.46366}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830233.4723933}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830238.481382}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830243.490124}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830248.4988744}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830253.5076888}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830258.516637}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830263.525509}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830268.5342407}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830273.5409622}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830278.5499887}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830283.558817}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830288.5672352}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830293.5736358}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830298.5802305}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830303.5880945}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830308.5964367}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830313.603667}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830318.6108332}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830323.6180592}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830328.624793}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830333.6318645}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830338.6386726}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830343.6467087}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830348.6549108}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830353.6626456}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830358.6705163}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830363.6772332}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830368.6851761}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830373.693911}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830378.702757}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830383.709981}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830388.718667}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830393.726795}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830398.734889}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830403.741802}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830408.7508829}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830413.7596002}
+{"kind": "idle", "label": "wait_for_gap", "t0": 1791830172.0002544, "t1": 1791830415.5001667, "model": "gemma4-26b-a4b-q4", "depth": 16384, "round": 1, "t": 1791830415.500182}
+{"kind": "cell_start", "model": "gemma4-26b-a4b-q4", "depth": 16384, "round": 1, "t": 1791830415.5002925}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830418.7666204}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830423.7732658}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830428.7796192}
+{"kind": "fill", "t0": 1791830415.5003426, "t1": 1791830430.1829672, "timings": {"prompt_n": 16384, "prompt_ms": 14675.854, "predicted_n": 1, "predicted_ms": 0.001, "predicted_per_second": 0.0, "cache_n": 0}, "tokens_cached": 16384, "model": "gemma4-26b-a4b-q4", "depth": 16384, "round": 1, "t": 1791830430.1830187}
+{"kind": "probe", "t0": 1791830430.1831033, "t1": 1791830431.404167, "timings": {"prompt_n": 1, "prompt_ms": 57.636, "predicted_n": 64, "predicted_ms": 1156.88, "predicted_per_second": 54.45681488140516, "cache_n": 16383}, "cache_reused": true, "model": "gemma4-26b-a4b-q4", "depth": 16384, "round": 1, "t": 1791830431.4042208}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830433.7880437}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830438.796434}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830443.8049574}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830448.8135676}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830453.8220353}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830458.8306832}
+{"kind": "idle", "label": "settle_before", "t0": 1791830431.4042923, "t1": 1791830461.4047701, "model": "gemma4-26b-a4b-q4", "depth": 16384, "round": 1, "t": 1791830461.4048011}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830463.8388264}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830468.8462894}
+{"kind": "decode_request", "t_send": 1791830461.405142, "t_recv": 1791830470.840035, "timings": {"prompt_n": 1, "prompt_ms": 70.248, "predicted_n": 512, "predicted_ms": 9357.359, "predicted_per_second": 54.60942558685629, "cache_n": 16383}, "model": "gemma4-26b-a4b-q4", "depth": 16384, "round": 1, "t": 1791830470.840089}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830473.854155}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830478.8612897}
+{"kind": "cell_failed", "error": "HTTPError: HTTP Error 500: Internal Server Error", "model": "gemma4-26b-a4b-q4", "depth": 16384, "round": 1, "t": 1791830480.2491806}
+{"kind": "server_up", "model": "gemma4-26b-a4b-q4", "round": 1, "load_s": 3.0053894290467724, "restart": true, "t": 1791830483.5713968}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830483.8698964}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830488.878696}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830493.8871906}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830498.895854}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830503.9046278}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830508.9131472}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830513.9216352}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830518.9303489}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830523.9379697}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830528.9455132}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830533.9542496}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830538.9626346}
+{"kind": "idle", "label": "loaded_idle", "t0": 1791830483.571505, "t1": 1791830543.5720267, "model": "gemma4-26b-a4b-q4", "round": 1, "t": 1791830543.5720568}
+{"kind": "cell_start", "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830543.57276}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830543.9694746}
+{"kind": "fill", "t0": 1791830543.572806, "t1": 1791830546.617957, "timings": {"prompt_n": 4096, "prompt_ms": 3041.159, "predicted_n": 1, "predicted_ms": 0.001, "predicted_per_second": 0.0, "cache_n": 0}, "tokens_cached": 4096, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830546.6179852}
+{"kind": "probe", "t0": 1791830546.618051, "t1": 1791830547.7636244, "timings": {"prompt_n": 1, "prompt_ms": 53.856, "predicted_n": 64, "predicted_ms": 1089.639, "predicted_per_second": 57.817313807600506, "cache_n": 4095}, "cache_reused": true, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830547.7636466}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830548.9777017}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830553.9863844}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830558.993994}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830564.0025046}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830569.0111854}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830574.0200527}
+{"kind": "idle", "label": "settle_before", "t0": 1791830547.7636876, "t1": 1791830577.7641692, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830577.7642007}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830579.0278}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830584.0345955}
+{"kind": "decode_request", "t_send": 1791830577.7644646, "t_recv": 1791830586.654655, "timings": {"prompt_n": 1, "prompt_ms": 69.266, "predicted_n": 512, "predicted_ms": 8817.299, "predicted_per_second": 57.95425560594009, "cache_n": 4095}, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830586.6546822}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830589.0422602}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830594.0492373}
+{"kind": "decode_request", "t_send": 1791830586.6547217, "t_recv": 1791830595.4653702, "timings": {"prompt_n": 2, "prompt_ms": 61.187, "predicted_n": 512, "predicted_ms": 8747.176, "predicted_per_second": 58.41885426793745, "cache_n": 4094}, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830595.4653907}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830599.0568166}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830604.0642226}
+{"kind": "decode_request", "t_send": 1791830595.4654276, "t_recv": 1791830604.2777917, "timings": {"prompt_n": 2, "prompt_ms": 65.919, "predicted_n": 512, "predicted_ms": 8744.187, "predicted_per_second": 58.43882341491553, "cache_n": 4094}, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830604.277816}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830609.071901}
+{"kind": "decode_request", "t_send": 1791830604.2778614, "t_recv": 1791830613.0783126, "timings": {"prompt_n": 2, "prompt_ms": 66.605, "predicted_n": 512, "predicted_ms": 8731.695, "predicted_per_second": 58.52242892130337, "cache_n": 4094}, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830613.0783327}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830614.0805864}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830619.0878592}
+{"kind": "decode_request", "t_send": 1791830613.0783637, "t_recv": 1791830621.8751352, "timings": {"prompt_n": 2, "prompt_ms": 67.446, "predicted_n": 512, "predicted_ms": 8727.346, "predicted_per_second": 58.55159174392765, "cache_n": 4094}, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830621.875161}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830624.0979033}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830629.1049678}
+{"kind": "decode_request", "t_send": 1791830621.8752007, "t_recv": 1791830630.6682274, "timings": {"prompt_n": 2, "prompt_ms": 66.238, "predicted_n": 512, "predicted_ms": 8724.581, "predicted_per_second": 58.57014795323695, "cache_n": 4094}, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830630.6682522}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830634.1132915}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830639.121046}
+{"kind": "decode_request", "t_send": 1791830630.668289, "t_recv": 1791830639.4691322, "timings": {"prompt_n": 2, "prompt_ms": 67.075, "predicted_n": 512, "predicted_ms": 8731.571, "predicted_per_second": 58.523260018157096, "cache_n": 4094}, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830639.469158}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830644.1289685}
+{"kind": "decode_request", "t_send": 1791830639.4692018, "t_recv": 1791830648.2590175, "timings": {"prompt_n": 2, "prompt_ms": 66.722, "predicted_n": 512, "predicted_ms": 8720.77, "predicted_per_second": 58.5957432657896, "cache_n": 4094}, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830648.2590377}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830649.1368413}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830654.1454875}
+{"kind": "decode_request", "t_send": 1791830648.2590685, "t_recv": 1791830657.0809972, "timings": {"prompt_n": 2, "prompt_ms": 65.768, "predicted_n": 512, "predicted_ms": 8754.141, "predicted_per_second": 58.37237485665356, "cache_n": 4094}, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830657.0810206}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830659.1538289}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830664.1645432}
+{"kind": "decode_request", "t_send": 1791830657.081077, "t_recv": 1791830665.908267, "timings": {"prompt_n": 2, "prompt_ms": 69.195, "predicted_n": 512, "predicted_ms": 8756.115, "predicted_per_second": 58.3592152455741, "cache_n": 4094}, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830665.908288}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830669.172882}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830674.1808128}
+{"kind": "decode_request", "t_send": 1791830665.9083197, "t_recv": 1791830674.7068894, "timings": {"prompt_n": 2, "prompt_ms": 66.228, "predicted_n": 512, "predicted_ms": 8730.094, "predicted_per_second": 58.53316126951211, "cache_n": 4094}, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830674.7069097}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830679.1888406}
+{"kind": "decode_request", "t_send": 1791830674.7069376, "t_recv": 1791830683.5151062, "timings": {"prompt_n": 2, "prompt_ms": 68.951, "predicted_n": 512, "predicted_ms": 8736.986, "predicted_per_second": 58.48698853357439, "cache_n": 4094}, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830683.5151284}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830684.1967885}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830689.2045863}
+{"kind": "decode_request", "t_send": 1791830683.5151713, "t_recv": 1791830692.3234677, "timings": {"prompt_n": 2, "prompt_ms": 71.236, "predicted_n": 512, "predicted_ms": 8734.853, "predicted_per_second": 58.50127071400057, "cache_n": 4094}, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830692.3234956}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830694.2126822}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830699.2203956}
+{"kind": "decode_request", "t_send": 1791830692.3235493, "t_recv": 1791830701.1331394, "timings": {"prompt_n": 2, "prompt_ms": 70.579, "predicted_n": 512, "predicted_ms": 8737.006, "predicted_per_second": 58.48685465020856, "cache_n": 4094}, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830701.1331615}
+{"kind": "window", "t0": 1791830577.7644646, "t1": 1791830701.1331394, "n_requests": 14, "cache_reused": true, "tokens": 7168, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830701.1331983}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791830704.228858}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830709.2357366}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830714.2420592}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791830719.2483811}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830724.257164}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830729.2656083}
+{"kind": "idle", "label": "settle_after", "t0": 1791830701.1332061, "t1": 1791830731.1332972, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830731.133305}
+{"kind": "cell_end", "contaminated": true, "flags": [[1791830731.1670601, {"ollama_requests": 2}]], "ollama_requests": 2, "model": "gemma4-26b-a4b-q4", "depth": 4096, "round": 1, "t": 1791830731.1670697}
+{"kind": "cell_start", "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830731.1671426}
+{"kind": "fill", "t0": 1791830731.1671515, "t1": 1791830731.5710921, "timings": {"prompt_n": 64, "prompt_ms": 177.86, "predicted_n": 1, "predicted_ms": 0.001, "predicted_per_second": 0.0, "cache_n": 0}, "tokens_cached": 64, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830731.5711057}
+{"kind": "probe", "t0": 1791830731.5711682, "t1": 1791830732.5790176, "timings": {"prompt_n": 5, "prompt_ms": 39.831, "predicted_n": 64, "predicted_ms": 967.024, "predicted_per_second": 65.1483313754364, "cache_n": 59}, "cache_reused": true, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830732.5790288}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830734.2741902}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830739.2821975}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830744.2913842}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830749.3001559}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830754.3090708}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830759.318009}
+{"kind": "idle", "label": "settle_before", "t0": 1791830732.5790615, "t1": 1791830762.5795412, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830762.5795722}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830764.3264344}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830769.3365722}
+{"kind": "decode_request", "t_send": 1791830762.5798032, "t_recv": 1791830770.242739, "timings": {"prompt_n": 5, "prompt_ms": 44.01, "predicted_n": 512, "predicted_ms": 7616.838, "predicted_per_second": 67.08820641846393, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830770.2427485}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830774.3457963}
+{"kind": "decode_request", "t_send": 1791830770.242768, "t_recv": 1791830777.895289, "timings": {"prompt_n": 5, "prompt_ms": 38.481, "predicted_n": 512, "predicted_ms": 7589.424, "predicted_per_second": 67.33053786427007, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830777.8952982}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830779.35423}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830784.3632696}
+{"kind": "decode_request", "t_send": 1791830777.895325, "t_recv": 1791830785.5319684, "timings": {"prompt_n": 5, "prompt_ms": 39.033, "predicted_n": 512, "predicted_ms": 7596.826, "predicted_per_second": 67.26493406588489, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830785.5319777}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830789.372538}
+{"kind": "decode_request", "t_send": 1791830785.5320084, "t_recv": 1791830793.1704051, "timings": {"prompt_n": 5, "prompt_ms": 38.638, "predicted_n": 512, "predicted_ms": 7598.825, "predicted_per_second": 67.24723888232721, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830793.1704154}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830794.3828547}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830799.3928676}
+{"kind": "decode_request", "t_send": 1791830793.1704535, "t_recv": 1791830800.8227525, "timings": {"prompt_n": 5, "prompt_ms": 38.534, "predicted_n": 512, "predicted_ms": 7612.868, "predicted_per_second": 67.1231919429051, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830800.822762}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830804.4023595}
+{"kind": "decode_request", "t_send": 1791830800.8227901, "t_recv": 1791830808.4614103, "timings": {"prompt_n": 5, "prompt_ms": 39.063, "predicted_n": 512, "predicted_ms": 7598.595, "predicted_per_second": 67.24927437243332, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830808.4614208}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830809.4108603}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830814.4180768}
+{"kind": "decode_request", "t_send": 1791830808.4614518, "t_recv": 1791830816.0981686, "timings": {"prompt_n": 5, "prompt_ms": 38.618, "predicted_n": 512, "predicted_ms": 7597.219, "predicted_per_second": 67.26145448749075, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830816.0981784}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830819.4265528}
+{"kind": "decode_request", "t_send": 1791830816.0982113, "t_recv": 1791830823.7344456, "timings": {"prompt_n": 5, "prompt_ms": 39.025, "predicted_n": 512, "predicted_ms": 7596.272, "predicted_per_second": 67.26983973191061, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830823.734457}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830824.4350674}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830829.4433446}
+{"kind": "decode_request", "t_send": 1791830823.734491, "t_recv": 1791830831.3670902, "timings": {"prompt_n": 5, "prompt_ms": 38.714, "predicted_n": 512, "predicted_ms": 7592.901, "predicted_per_second": 67.29970534318832, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830831.3670998}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830834.4520848}
+{"kind": "decode_request", "t_send": 1791830831.3671422, "t_recv": 1791830838.9958646, "timings": {"prompt_n": 5, "prompt_ms": 38.834, "predicted_n": 512, "predicted_ms": 7588.977, "predicted_per_second": 67.33450371505936, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830838.9958754}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830839.4605086}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830844.4680438}
+{"kind": "decode_request", "t_send": 1791830838.9959052, "t_recv": 1791830846.6206865, "timings": {"prompt_n": 5, "prompt_ms": 39.369, "predicted_n": 512, "predicted_ms": 7584.505, "predicted_per_second": 67.37420569964685, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830846.620696}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830849.4761012}
+{"kind": "decode_request", "t_send": 1791830846.6207228, "t_recv": 1791830854.2439146, "timings": {"prompt_n": 5, "prompt_ms": 38.675, "predicted_n": 512, "predicted_ms": 7583.675, "predicted_per_second": 67.3815795112528, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830854.2439244}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830854.4846873}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830859.4921403}
+{"kind": "decode_request", "t_send": 1791830854.2439537, "t_recv": 1791830861.869444, "timings": {"prompt_n": 5, "prompt_ms": 38.469, "predicted_n": 512, "predicted_ms": 7586.105, "predicted_per_second": 67.35999567630557, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830861.8694537}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830864.5005028}
+{"kind": "decode_request", "t_send": 1791830861.8694944, "t_recv": 1791830869.4976523, "timings": {"prompt_n": 5, "prompt_ms": 39.232, "predicted_n": 512, "predicted_ms": 7588.004, "predicted_per_second": 67.34313793192518, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830869.4976625}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830869.5094018}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830874.517629}
+{"kind": "decode_request", "t_send": 1791830869.4976969, "t_recv": 1791830877.1321027, "timings": {"prompt_n": 5, "prompt_ms": 38.942, "predicted_n": 512, "predicted_ms": 7594.59, "predicted_per_second": 67.28473821496618, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830877.1321127}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830879.526026}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830884.533802}
+{"kind": "decode_request", "t_send": 1791830877.1321483, "t_recv": 1791830884.7629828, "timings": {"prompt_n": 5, "prompt_ms": 39.091, "predicted_n": 512, "predicted_ms": 7590.925, "predicted_per_second": 67.31722418545829, "cache_n": 59}, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830884.7629914}
+{"kind": "window", "t0": 1791830762.5798032, "t1": 1791830884.7629828, "n_requests": 16, "cache_reused": true, "tokens": 8192, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830884.7630248}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830889.5417552}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830894.5504653}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830899.5592952}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830904.568277}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830909.5772617}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830914.5858395}
+{"kind": "idle", "label": "settle_after", "t0": 1791830884.763033, "t1": 1791830914.7635133, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830914.7635443}
+{"kind": "cell_end", "contaminated": false, "flags": [], "ollama_requests": 0, "model": "gemma4-26b-a4b-q4", "depth": 64, "round": 1, "t": 1791830914.7712734}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830919.5945716}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830924.6031294}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830929.6118367}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830934.619113}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830939.6269183}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830944.6354396}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830949.6424105}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830954.651484}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830959.6603525}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830964.6682363}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830969.6768882}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830974.684048}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830979.6927788}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830984.7018676}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830989.7106977}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830994.7194312}
+{"kind": "guard", "ollama_models": ["qwen3.6:35b"], "busy": [], "t": 1791830999.728298}
+{"kind": "guard", "ollama_models": ["llama3.2:3b", "qwen3.6:35b"], "busy": [], "t": 1791831004.736193}
+{"kind": "guard", "ollama_models": ["llama3.2:3b", "qwen3.6:35b"], "busy": [], "t": 1791831009.7449605}
+{"kind": "guard", "ollama_models": ["llama3.2:3b", "qwen3.6:35b"], "busy": [], "t": 1791831014.7540941}
+{"kind": "idle", "label": "wait_for_gap", "t0": 1791830914.7713583, "t1": 1791831015.5000868, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831015.5000973}
+{"kind": "cell_start", "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831015.5001767}
+{"kind": "guard", "ollama_models": ["llama3.2:3b", "qwen3.6:35b"], "busy": [], "t": 1791831019.7609546}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831024.7716856}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831029.7805111}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831034.7883093}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831039.7988813}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831044.808085}
+{"kind": "fill", "t0": 1791831015.5002594, "t1": 1791831048.8495882, "timings": {"prompt_n": 28675, "prompt_ms": 33317.268, "predicted_n": 1, "predicted_ms": 0.001, "predicted_per_second": 0.0, "cache_n": 4093}, "tokens_cached": 32768, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831048.849649}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831049.8163667}
+{"kind": "probe", "t0": 1791831048.8497403, "t1": 1791831050.171701, "timings": {"prompt_n": 1, "prompt_ms": 65.981, "predicted_n": 64, "predicted_ms": 1247.409, "predicted_per_second": 50.5046861133758, "cache_n": 32767}, "cache_reused": true, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831050.171758}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831054.8252344}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831059.8345664}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831064.8426716}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831069.8514745}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831074.860948}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831079.870009}
+{"kind": "idle", "label": "settle_before", "t0": 1791831050.1717815, "t1": 1791831080.172258, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831080.1722891}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831084.8789656}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831089.8868968}
+{"kind": "decode_request", "t_send": 1791831080.1726518, "t_recv": 1791831090.3457577, "timings": {"prompt_n": 1, "prompt_ms": 77.579, "predicted_n": 512, "predicted_ms": 10086.158, "predicted_per_second": 50.66349347293588, "cache_n": 32767}, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831090.3458388}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831094.8952127}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831099.9028683}
+{"kind": "decode_request", "t_send": 1791831090.3459377, "t_recv": 1791831100.4369102, "timings": {"prompt_n": 2, "prompt_ms": 69.312, "predicted_n": 512, "predicted_ms": 10012.951, "predicted_per_second": 51.03390598835448, "cache_n": 32766}, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831100.436968}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831104.9110472}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831109.9184184}
+{"kind": "decode_request", "t_send": 1791831100.4370246, "t_recv": 1791831110.5416589, "timings": {"prompt_n": 2, "prompt_ms": 83.855, "predicted_n": 512, "predicted_ms": 10012.641, "predicted_per_second": 51.03548604209419, "cache_n": 32766}, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831110.541741}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831114.9266407}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831119.9347773}
+{"kind": "decode_request", "t_send": 1791831110.5418339, "t_recv": 1791831120.6525528, "timings": {"prompt_n": 2, "prompt_ms": 89.147, "predicted_n": 512, "predicted_ms": 10012.992, "predicted_per_second": 51.03369702083054, "cache_n": 32766}, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831120.6526346}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831124.9432285}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831129.9514768}
+{"kind": "decode_request", "t_send": 1791831120.652726, "t_recv": 1791831130.7619307, "timings": {"prompt_n": 2, "prompt_ms": 86.432, "predicted_n": 512, "predicted_ms": 10014.068, "predicted_per_second": 51.02821350923521, "cache_n": 32766}, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831130.7619882}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831134.9596927}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831139.968188}
+{"kind": "decode_request", "t_send": 1791831130.7620456, "t_recv": 1791831140.8783169, "timings": {"prompt_n": 2, "prompt_ms": 91.942, "predicted_n": 512, "predicted_ms": 10016.051, "predicted_per_second": 51.01811083030628, "cache_n": 32766}, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831140.8783755}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831144.9776134}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831149.9867597}
+{"kind": "decode_request", "t_send": 1791831140.8784356, "t_recv": 1791831150.9853435, "timings": {"prompt_n": 2, "prompt_ms": 86.898, "predicted_n": 512, "predicted_ms": 10011.305, "predicted_per_second": 51.04229668359919, "cache_n": 32766}, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831150.9854226}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831154.9952173}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831160.0037227}
+{"kind": "decode_request", "t_send": 1791831150.9855146, "t_recv": 1791831161.099941, "timings": {"prompt_n": 2, "prompt_ms": 86.034, "predicted_n": 512, "predicted_ms": 10019.301, "predicted_per_second": 51.00156188540498, "cache_n": 32766}, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831161.100021}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831165.0121076}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831170.0200105}
+{"kind": "decode_request", "t_send": 1791831161.1001105, "t_recv": 1791831171.219014, "timings": {"prompt_n": 2, "prompt_ms": 87.289, "predicted_n": 512, "predicted_ms": 10022.412, "predicted_per_second": 50.985730780175466, "cache_n": 32766}, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831171.2190986}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831175.0284874}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831180.0360951}
+{"kind": "decode_request", "t_send": 1791831171.2192152, "t_recv": 1791831181.3363209, "timings": {"prompt_n": 2, "prompt_ms": 86.204, "predicted_n": 512, "predicted_ms": 10021.696, "predicted_per_second": 50.98937345535127, "cache_n": 32766}, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831181.3364055}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831185.0446665}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831190.0523965}
+{"kind": "decode_request", "t_send": 1791831181.3365164, "t_recv": 1791831191.4547653, "timings": {"prompt_n": 2, "prompt_ms": 87.576, "predicted_n": 512, "predicted_ms": 10022.262, "predicted_per_second": 50.98649386735249, "cache_n": 32766}, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831191.4549825}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831195.0617197}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831200.0717192}
+{"kind": "decode_request", "t_send": 1791831191.4550972, "t_recv": 1791831201.5687156, "timings": {"prompt_n": 2, "prompt_ms": 87.691, "predicted_n": 512, "predicted_ms": 10017.682, "predicted_per_second": 51.0098044637472, "cache_n": 32766}, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831201.5687985}
+{"kind": "window", "t0": 1791831080.1726518, "t1": 1791831201.5687156, "n_requests": 12, "cache_reused": true, "tokens": 6144, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831201.5688767}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831205.081215}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831210.0902162}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831215.0984683}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831220.107151}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831225.1154664}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831230.1241856}
+{"kind": "idle", "label": "settle_after", "t0": 1791831201.568889, "t1": 1791831231.5689826, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831231.5689976}
+{"kind": "cell_end", "contaminated": false, "flags": [], "ollama_requests": 0, "model": "gemma4-26b-a4b-q4", "depth": 32768, "round": 1, "t": 1791831231.5741796}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831235.1313493}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831240.1382926}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831245.1473405}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831250.1561944}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831255.1651492}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831260.1742449}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831265.1833212}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831270.1924367}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831275.201261}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831280.2098243}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831285.218763}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831290.227728}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831295.2366}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831300.2451966}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831305.2539737}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831310.262851}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831315.2722054}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831320.281248}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831325.2905054}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831330.2995229}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831335.3081424}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831340.3168945}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831345.325489}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831350.3343987}
+{"kind": "idle", "label": "bare_idle_block", "t0": 1791831231.9413998, "t1": 1791831351.9419103, "model": "gemma4-26b-a4b-q4", "round": 1, "t": 1791831351.9420052}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831355.3410811}
+{"kind": "server_up", "model": "gemma4-12b-q4", "round": 1, "load_s": 5.0086662149988115, "t": 1791831356.9533663}
+{"kind": "tokenized", "model": "gemma4-12b-q4", "n_tokens": 51332, "t": 1791831357.0631046}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831360.3496785}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831365.3574724}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831370.3638575}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831375.370949}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831380.377231}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831385.3850589}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831390.3939106}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831395.4024804}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831400.4110355}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831405.419354}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831410.4280543}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831415.436303}
+{"kind": "idle", "label": "loaded_idle", "t0": 1791831357.0631535, "t1": 1791831417.0636313, "model": "gemma4-12b-q4", "round": 1, "t": 1791831417.063662}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831420.444965}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831425.4538095}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831430.4624336}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831435.4713712}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831440.480026}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831445.4887066}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831450.497476}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831455.506322}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831460.5152476}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831465.5237668}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831470.5325649}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831475.5406787}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831480.54931}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831485.558114}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831490.5667934}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831495.5754395}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831500.5842593}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831505.5928102}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831510.6014707}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831515.6320634}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831520.6399426}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831525.6488633}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831530.6575873}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831535.6644938}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831540.6728961}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831545.681268}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831550.6883817}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831555.6972966}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831560.7059379}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831565.7136717}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831570.7221637}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831575.7310944}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831580.7393816}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831585.7468622}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831590.7554023}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831595.7640557}
+{"kind": "guard", "ollama_models": [], "busy": [], "t": 1791831600.7725165}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831605.77908}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831610.7876022}
+{"kind": "idle", "label": "wait_for_gap", "t0": 1791831417.0639539, "t1": 1791831615.5005372, "model": "gemma4-12b-q4", "depth": 4096, "round": 1, "t": 1791831615.5005686}
+{"kind": "cell_start", "model": "gemma4-12b-q4", "depth": 4096, "round": 1, "t": 1791831615.5007896}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831615.7944462}
+{"kind": "fill", "t0": 1791831615.5009122, "t1": 1791831620.1013367, "timings": {"prompt_n": 4096, "prompt_ms": 4595.334, "predicted_n": 1, "predicted_ms": 0.001, "predicted_per_second": 0.0, "cache_n": 0}, "tokens_cached": 4096, "model": "gemma4-12b-q4", "depth": 4096, "round": 1, "t": 1791831620.1013672}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831620.802474}
+{"kind": "probe", "t0": 1791831620.1014507, "t1": 1791831622.609905, "timings": {"prompt_n": 1, "prompt_ms": 100.788, "predicted_n": 64, "predicted_ms": 2404.732, "predicted_per_second": 26.198345595267998, "cache_n": 4095}, "cache_reused": true, "model": "gemma4-12b-q4", "depth": 4096, "round": 1, "t": 1791831622.6099365}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831625.8111937}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831630.8200722}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831635.8285956}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831640.8369045}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831645.8453753}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831650.8541393}
+{"kind": "idle", "label": "settle_before", "t0": 1791831622.610007, "t1": 1791831652.6104634, "model": "gemma4-12b-q4", "depth": 4096, "round": 1, "t": 1791831652.610495}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831655.862257}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831660.8684573}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831665.8759954}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831670.8820145}
+{"kind": "decode_request", "t_send": 1791831652.6107512, "t_recv": 1791831672.2168896, "timings": {"prompt_n": 1, "prompt_ms": 121.415, "predicted_n": 512, "predicted_ms": 19480.402, "predicted_per_second": 26.2314915267149, "cache_n": 4095}, "model": "gemma4-12b-q4", "depth": 4096, "round": 1, "t": 1791831672.2169204}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831675.8896205}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831680.8953037}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831685.901514}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831690.906987}
+{"kind": "decode_request", "t_send": 1791831672.2170398, "t_recv": 1791831691.6903217, "timings": {"prompt_n": 2, "prompt_ms": 102.555, "predicted_n": 512, "predicted_ms": 19367.907, "predicted_per_second": 26.38385242143098, "cache_n": 4094}, "model": "gemma4-12b-q4", "depth": 4096, "round": 1, "t": 1791831691.69035}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831695.9143057}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831700.9197724}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831705.9258404}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831710.9327834}
+{"kind": "decode_request", "t_send": 1791831691.6904256, "t_recv": 1791831711.1602116, "timings": {"prompt_n": 2, "prompt_ms": 112.448, "predicted_n": 512, "predicted_ms": 19354.308, "predicted_per_second": 26.40239062021747, "cache_n": 4094}, "model": "gemma4-12b-q4", "depth": 4096, "round": 1, "t": 1791831711.1602407}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831715.9403327}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831720.9473395}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831725.9533489}
+{"kind": "decode_request", "t_send": 1791831711.1603193, "t_recv": 1791831730.6315343, "timings": {"prompt_n": 2, "prompt_ms": 111.342, "predicted_n": 512, "predicted_ms": 19357.304, "predicted_per_second": 26.39830422666297, "cache_n": 4094}, "model": "gemma4-12b-q4", "depth": 4096, "round": 1, "t": 1791831730.6315653}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831730.9637444}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831735.9705667}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831740.978875}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831745.9870296}
+{"kind": "decode_request", "t_send": 1791831730.6316235, "t_recv": 1791831750.154021, "timings": {"prompt_n": 2, "prompt_ms": 113.022, "predicted_n": 512, "predicted_ms": 19406.229, "predicted_per_second": 26.331751521637717, "cache_n": 4094}, "model": "gemma4-12b-q4", "depth": 4096, "round": 1, "t": 1791831750.1540532}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831750.994915}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831756.0017605}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831761.0085068}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831766.0147078}
+{"kind": "decode_request", "t_send": 1791831750.1541178, "t_recv": 1791831769.62576, "timings": {"prompt_n": 2, "prompt_ms": 112.154, "predicted_n": 512, "predicted_ms": 19356.691, "predicted_per_second": 26.399140224948574, "cache_n": 4094}, "model": "gemma4-12b-q4", "depth": 4096, "round": 1, "t": 1791831769.6257913}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831771.0230215}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831776.0300221}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831781.0377986}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831786.045188}
+{"kind": "decode_request", "t_send": 1791831769.6258795, "t_recv": 1791831789.0953665, "timings": {"prompt_n": 2, "prompt_ms": 111.993, "predicted_n": 512, "predicted_ms": 19354.428, "predicted_per_second": 26.40222692192195, "cache_n": 4094}, "model": "gemma4-12b-q4", "depth": 4096, "round": 1, "t": 1791831789.0953968}
+{"kind": "window", "t0": 1791831652.6107512, "t1": 1791831789.0953665, "n_requests": 7, "cache_reused": true, "tokens": 3584, "model": "gemma4-12b-q4", "depth": 4096, "round": 1, "t": 1791831789.0954914}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831791.0542521}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831796.0632436}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831801.0720723}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831806.0805461}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831811.0892153}
+{"kind": "guard", "ollama_models": ["llama3.2:3b"], "busy": [], "t": 1791831816.0976775}

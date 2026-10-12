@@ -1,0 +1,70 @@
+0.00.045.981 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.046.063 I srv          init: The UI is disabled
+0.00.046.064 I srv          init: Use --ui/--no-ui (or deprecated --webui/--no-webui) to enable/disable
+0.00.046.122 W srv  llama_server: -----------------
+0.00.046.123 W srv  llama_server: CORS is set to allow all origins ('*') and no API key is set
+0.00.046.123 W srv  llama_server: this can be a security risk (cross-origin attacks)
+0.00.046.123 W srv  llama_server: more info: https://github.com/ggml-org/llama.cpp/pull/25655
+0.00.046.124 W srv  llama_server: -----------------
+0.00.047.332 I srv    load_model: loading model '/home/cisco/models/lifeops/gemma-4-26B-A4B-it-qat-UD-Q4_K_XL.gguf'
+0.00.718.057 W load: override 'tokenizer.ggml.add_bos_token' to 'true' for Gemma4
+0.00.752.080 W load: control-looking token:    212 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.00.752.305 W load: control-looking token:     50 '<|tool_response>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.00.764.220 W load: special_eog_ids contains '<|tool_response>', removing '</s>' token from EOG list
+0.02.260.172 I cmn          init: llama threadpool init, n_threads = 16
+0.02.349.890 I srv    load_model: initializing, n_slots = 1, n_ctx_slot = 36864, kv_unified = 'false'
+0.02.356.708 I srv  llama_server: model loaded
+0.02.356.719 I srv  llama_server: listening on http://127.0.0.1:8099
+5.06.616.857 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = -1
+5.06.616.936 I slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+5.10.861.717 I slot print_timing: id  0 | task 0 | prompt processing, n_tokens =   6144, progress = 0.38, t =   4.24 s / 1447.45 tokens per second
+5.12.601.141 I slot print_timing: id  0 | task 0 | prompt processing, n_tokens =   8192, progress = 0.50, t =   5.98 s / 1368.95 tokens per second
+5.14.460.601 I slot print_timing: id  0 | task 0 | prompt processing, n_tokens =  10240, progress = 0.62, t =   7.84 s / 1305.52 tokens per second
+5.16.427.760 I slot print_timing: id  0 | task 0 | prompt processing, n_tokens =  12288, progress = 0.75, t =   9.81 s / 1252.50 tokens per second
+5.18.495.972 I slot print_timing: id  0 | task 0 | prompt processing, n_tokens =  14336, progress = 0.88, t =  11.88 s / 1206.84 tokens per second
+5.20.127.503 I slot print_timing: id  0 | task 0 | prompt processing, n_tokens =  15868, progress = 0.97, t =  13.51 s / 1174.49 tokens per second
+5.20.691.537 I slot print_timing: id  0 | task 0 | prompt processing, n_tokens =  16380, progress = 1.00, t =  14.07 s / 1163.80 tokens per second
+5.21.292.846 I slot print_timing: id  0 | task 0 | prompt eval time =   14675.85 ms / 16384 tokens (    0.90 ms per token,  1116.39 tokens per second)
+5.21.292.849 I slot print_timing: id  0 | task 0 |        eval time =       0.00 ms /     1 tokens (    0.00 ms per token,     0.00 tokens per second)
+5.21.292.850 I slot print_timing: id  0 | task 0 |       total time =   14675.85 ms / 16385 tokens
+5.21.292.853 I slot print_timing: id  0 | task 0 |    graphs reused =          1
+5.21.293.533 I slot      release: id  0 | task 0 | stop processing: n_tokens = 16384, truncated = 0
+5.21.299.117 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 1.000 (> 0.100 thold), f_keep = 1.000
+5.21.299.211 I slot launch_slot_: id  0 | task 11 | processing task, is_child = 0
+5.21.299.235 W slot   operator(): id  0 | task 11 | need to evaluate at least 1 token for each active slot (n_past = 16384, task.n_tokens() = 16384)
+5.21.299.237 W slot   operator(): id  0 | task 11 | n_past was set to 16383
+5.22.513.749 I slot print_timing: id  0 | task 11 | prompt eval time =      57.64 ms /     1 tokens (   57.64 ms per token,    17.35 tokens per second)
+5.22.513.753 I slot print_timing: id  0 | task 11 |        eval time =    1156.88 ms /    64 tokens (   18.36 ms per token,    54.46 tokens per second)
+5.22.513.753 I slot print_timing: id  0 | task 11 |       total time =    1214.52 ms /    65 tokens
+5.22.513.754 I slot print_timing: id  0 | task 11 |    graphs reused =         63
+5.22.514.398 I slot      release: id  0 | task 11 | stop processing: n_tokens = 16447, truncated = 0
+5.52.521.869 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 1.000 (> 0.100 thold), f_keep = 0.996
+5.52.521.940 I slot launch_slot_: id  0 | task 76 | processing task, is_child = 0
+5.52.521.969 W slot   operator(): id  0 | task 76 | need to evaluate at least 1 token for each active slot (n_past = 16384, task.n_tokens() = 16384)
+5.52.521.970 W slot   operator(): id  0 | task 76 | n_past was set to 16383
+5.55.594.782 I slot print_timing: id  0 | task 76 | n_gen =    165, tg =  54.62 t/s, tg_3s =  54.95 t/s
+5.58.599.541 I slot print_timing: id  0 | task 76 | n_gen =    329, tg =  54.60 t/s, tg_3s =  54.58 t/s
+6.01.602.074 I slot print_timing: id  0 | task 76 | n_gen =    493, tg =  54.61 t/s, tg_3s =  54.62 t/s
+6.01.949.564 I slot print_timing: id  0 | task 76 | prompt eval time =      70.25 ms /     1 tokens (   70.25 ms per token,    14.24 tokens per second)
+6.01.949.566 I slot print_timing: id  0 | task 76 |        eval time =    9357.36 ms /   512 tokens (   18.31 ms per token,    54.61 tokens per second)
+6.01.949.567 I slot print_timing: id  0 | task 76 |       total time =    9427.61 ms /   513 tokens
+6.01.949.568 I slot print_timing: id  0 | task 76 |    graphs reused =        572
+6.01.950.212 I slot      release: id  0 | task 76 | stop processing: n_tokens = 16895, truncated = 0
+6.01.955.962 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 1.000 (> 0.100 thold), f_keep = 0.970
+6.01.956.008 I slot launch_slot_: id  0 | task 589 | processing task, is_child = 0
+6.05.029.572 I slot print_timing: id  0 | task 589 | n_gen =    168, tg =  55.47 t/s, tg_3s =  55.80 t/s
+6.08.046.754 I slot print_timing: id  0 | task 589 | n_gen =    334, tg =  55.24 t/s, tg_3s =  55.02 t/s
+6.11.050.239 I slot print_timing: id  0 | task 589 | n_gen =    498, tg =  55.03 t/s, tg_3s =  54.60 t/s
+6.11.306.283 I slot print_timing: id  0 | task 589 | prompt eval time =      63.00 ms /     2 tokens (   31.50 ms per token,    31.75 tokens per second)
+6.11.306.286 I slot print_timing: id  0 | task 589 |        eval time =    9287.27 ms /   512 tokens (   18.17 ms per token,    55.02 tokens per second)
+6.11.306.286 I slot print_timing: id  0 | task 589 |       total time =    9350.27 ms /   514 tokens
+6.11.306.287 I slot print_timing: id  0 | task 589 |    graphs reused =       1080
+6.11.306.926 I slot      release: id  0 | task 589 | stop processing: n_tokens = 16895, truncated = 0
+6.11.307.247 W common_chat_peg_parse: unparsed Content-only output: , la de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de la de de de de.
+
+"Source code" source code source code source de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de la de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de most de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de  most de de de dethought
+<|channel>thought
+<channel|>The text you provided is a compilation of several different open-source and public domain licenses. It appears to be a "dump" of various legal frameworks used in software
+6.11.360.185 W srv          stop: cancel task, id_task = 589
+6.11.361.080 W srv    operator(): got exception: {"error":{"code":500,"message":"The model produced output that does not match the expected Content-only format","type":"server_error"}}
+6.11.361.884 I srv    operator(): operator(): cleaning up before exit...
