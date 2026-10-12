@@ -975,5 +975,7 @@
  "n_cells": 47,
  "n_contaminated": 0,
  "n_short": 0,
- "n_throttled": 0
+ "n_throttled": 0,
+ "n_cells_with_parse_error": 0,
+ "n_parse_error_requests": 0
 }

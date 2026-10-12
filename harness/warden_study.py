@@ -15,10 +15,12 @@ import hashlib
 import json
 import os
 import pathlib
+import re
 import subprocess
 import sys
 import threading
 import time
+import urllib.error
 import urllib.request
 
 PORT = 8099
@@ -170,7 +172,8 @@ class Server:
     def __init__(self, build: str, model: str, logdir: pathlib.Path, tag: str):
         self.build = build
         self.model = model
-        self.logfile = open(logdir / f"server-{tag}.log", "w")
+        self.logpath = logdir / f"server-{tag}.log"
+        self.logfile = open(self.logpath, "w")
         self.proc = None
 
     def start(self):
@@ -178,6 +181,8 @@ class Server:
         cmd = [f"{self.build}/llama-server", "-m", self.model, "-ngl", "99", "-c", str(CTX), "-np", "1", "-fa", "on",
                "--no-context-shift", "--host", "127.0.0.1", "--port", str(PORT), "--no-webui"]
         self.proc = subprocess.Popen(cmd, env=env, stdout=self.logfile, stderr=subprocess.STDOUT)
+        global SERVER_LOG
+        SERVER_LOG = self.logpath
         t0 = time.monotonic()
         while time.monotonic() - t0 < 900:
             if self.proc.poll() is not None:
@@ -210,6 +215,28 @@ def licence_text() -> str:
     return "\n\n".join(parts)
 
 
+SERVER_LOG = None   # path of the running server's log, for recovering timings after a response-parse error
+
+# llama-server parses every reply with a chat parser, even from /completion, and answers HTTP 500 when the
+# generated text holds invalid UTF-8 (upstream issue 27543, fixed in b11063 by PR 29161; this study runs b10970).
+# The generation itself has finished by then and the server has logged its timings. See DEVIATIONS.md.
+PARSE_ERROR_TEXT = "does not match the expected"
+_PROMPT_RE = re.compile(r"prompt eval time =\s*([\d.]+) ms /\s*(\d+) tokens")
+_EVAL_RE = re.compile(r"(?<!prompt )eval time =\s*([\d.]+) ms /\s*(\d+) tokens")
+
+
+def timings_from_server_log(text: str):
+    """Last request's timings from llama-server's print_timing lines, in the shape of the /completion `timings`."""
+    p = _PROMPT_RE.findall(text)
+    e = _EVAL_RE.findall(text)
+    if not p or not e:
+        return None
+    pms, pn = float(p[-1][0]), int(p[-1][1])
+    ems, en = float(e[-1][0]), int(e[-1][1])
+    return {"prompt_n": pn, "prompt_ms": pms, "predicted_n": en, "predicted_ms": ems,
+            "predicted_per_second": en / (ems / 1000.0) if ems else None, "cache_n": None}
+
+
 class CellFailed(Exception):
     """The server rejected or dropped a request. The cell is logged as failed and the server is restarted."""
 
@@ -217,14 +244,35 @@ class CellFailed(Exception):
 def completion(ids, n_predict):
     body = {"prompt": ids, "n_predict": n_predict, "temperature": 0, "ignore_eos": True, "cache_prompt": True,
             "stream": False}
+    log_offset = os.path.getsize(SERVER_LOG) if SERVER_LOG and os.path.exists(SERVER_LOG) else 0
     t_send = now()
+    parse_error = False
     try:
         r = http_json("POST", f"http://127.0.0.1:{PORT}/completion", body)
+        t_recv = now()
+    except urllib.error.HTTPError as e:
+        detail = e.read().decode("utf-8", "replace")
+        t_recv = now()
+        if e.code != 500 or PARSE_ERROR_TEXT not in detail or not SERVER_LOG:
+            raise CellFailed(f"HTTPError {e.code}: {detail[:200]}") from e
+        tm = None
+        for _ in range(10):
+            with open(SERVER_LOG, "rb") as f:
+                f.seek(log_offset)
+                tm = timings_from_server_log(f.read().decode("utf-8", "replace"))
+            if tm:
+                break
+            time.sleep(0.5)
+        if not tm or tm["predicted_n"] != n_predict:
+            raise CellFailed(f"HTTPError 500 and no usable timings in the server log: {detail[:200]}") from e
+        r = {"timings": tm, "tokens_predicted": tm["predicted_n"], "tokens_cached": None, "_parse_error": True}
+        parse_error = True
     except Exception as e:
         raise CellFailed(f"{type(e).__name__}: {e}") from e
-    t_recv = now()
     tm = r.get("timings", {})
     keep = {k: tm.get(k) for k in ("prompt_n", "prompt_ms", "predicted_n", "predicted_ms", "predicted_per_second", "cache_n")}
+    if parse_error:
+        keep["parse_error"] = True
     return t_send, t_recv, keep, r.get("tokens_predicted"), r.get("tokens_cached")
 
 
