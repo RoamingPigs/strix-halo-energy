@@ -42,7 +42,7 @@ check("model files present", int(n) >= 4, n)
 check("disk free over 10 GB", int(avail.strip().rstrip("G")) > 10, avail.strip())
 check("package power sensor reads", int(ppt) > 0, f"{int(ppt)/1e6:.1f} W")
 check("machine quiet (5 min load average under 0.5)", float(load.split()[1]) < 0.5, load)
-rc, out = sh("ps -eo pcpu,args --sort=-pcpu | sed -n 2,4p | cut -c1-90", True)
+rc, out = sh("ps -eo pcpu,comm --sort=-pcpu | sed -n 2,4p", True)
 top = float(out.splitlines()[0].split()[0]) if out else 0.0
 check("no process above 10% CPU right now", top < 10.0, out.splitlines()[0] if out else "")
 t0 = time.time(); rc, rt = sh("date +%s.%N", True); t1 = time.time()
