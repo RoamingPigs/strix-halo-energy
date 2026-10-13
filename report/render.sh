@@ -14,7 +14,9 @@ const b = await chromium.launch();
 let p = await b.newPage({ viewport: { width: 900, height: 1200 } });
 await p.goto(`file://${dir}/report.html`);
 await p.pdf({ path: `${dir}/report.pdf`, format: "A4", printBackground: true, margin: { top: "14mm", bottom: "14mm", left: "12mm", right: "12mm" } });
-for (const n of ["share-energy", "share-speed"]) {
+import fs from "node:fs";
+for (const n of ["share-energy", "share-speed", "share-rocm"]) {
+  if (!fs.existsSync(`${dir}/${n}.html`)) continue;
   p = await b.newPage({ viewport: { width: 1200, height: 630 }, deviceScaleFactor: 2 });
   await p.goto(`file://${dir}/${n}.html`);
   await p.screenshot({ path: `${dir}/${n}.png` });

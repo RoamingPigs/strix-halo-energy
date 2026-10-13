@@ -58,6 +58,29 @@ def table(S, label):
     return f'<div class="tw"><table aria-label="{e(label)}">{"".join(rows)}</table></div>'
 
 
+def findings(SA, SB, EV, la, lb):
+    """Plain sentences computed from the two summaries. Direction only where the repeat ranges do not overlap."""
+    lab = {k: l for k, l, _ in F.MODELS}
+    shorts = {k: sh for k, _, sh in F.MODELS}
+    out = []
+    keys = [f"{mk}@{d}" for mk, _, _ in F.MODELS for d in F.DEPTHS if f"{mk}@{d}" in SA["cells"] and f"{mk}@{d}" in SB["cells"]]
+    def side(k, m):
+        a, b = SA["cells"][k][m], SB["cells"][k][m]
+        return "higher" if b["min"] > a["max"] else "lower" if b["max"] < a["min"] else "overlap"
+    sp = [SB["cells"][k]["tok_per_s"]["mean"] / SA["cells"][k]["tok_per_s"]["mean"] for k in keys]
+    lower = sum(1 for k in keys if side(k, "tok_per_s") == "lower")
+    out.append(f"<strong>Speed.</strong> {lb} decoded more slowly than {la} in {lower} of {len(keys)} cells, by {100-max(sp)*100:.0f} to {100-min(sp)*100:.0f}%, and the repeat ranges of the two backends never overlap in those cells. It was never faster.")
+    for mk, _, _ in F.MODELS:
+        ks = [f"{mk}@{d}" for d in F.DEPTHS if f"{mk}@{d}" in keys]
+        r = [SB["cells"][k]["wall_net_j_per_tok"]["mean"] / SA["cells"][k]["wall_net_j_per_tok"]["mean"] for k in ks]
+        dirs = {side(k, "wall_net_j_per_tok") for k in ks}
+        word = "less" if dirs == {"lower"} else "more" if dirs == {"higher"} else "about the same (the repeat ranges overlap in some cells)"
+        out.append(f"<strong>Energy, {shorts[mk]}.</strong> {lb} used {word} energy per token than {la}: {min(r)*100-100:+.0f} to {max(r)*100-100:+.0f}% across the four context lengths (wall plug, net of idle).")
+    if EV:
+        out.append(f"<strong>Repeatability.</strong> {la} on the newer kernel, on another day, matched study 1 within {EV['P1']['max_abs_pct']}% in every one of the 16 cells. Idle power was {EV['P4']['vulkan_median_w'][0]:g} W against {EV['P4']['study1_median_w'][0]:g} W.")
+    return "<ul>" + "".join(f"<li>{x}</li>" for x in out) + "</ul>"
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     opts = dict(a[2:].split("=", 1) for a in sys.argv[1:] if a.startswith("--") and "=" in a)
@@ -66,7 +89,7 @@ def main():
     SA = json.load(open(pa))
     SB = json.load(open(pb)) if pb else None
     la, lb = "Vulkan", "ROCm"
-    title = opts.get("title", "What a local AI model costs in energy, measured on one mini PC")
+    title = opts.get("title", "Vulkan or ROCm? Speed and energy per token on one mini PC" if SB else "What a local AI model costs in energy, measured on one mini PC")
     status = opts.get("status", "Self-published. Not peer reviewed. One machine.")
     flags = F.held_flags(SA)
     n_ex, held = len(flags), sum(1 for _, ok in flags if ok)
@@ -81,14 +104,33 @@ def main():
              (f"{SA['n_cells']}", f"measured cells on {la}" + (f", {SB['n_cells']} on {lb}" if SB else "")),
              (f"{held} of {n_ex}", "expectations written in advance held"),
              (f"{abs(cc['diff_pct']):.1f}%", "gap between the plug's own energy counter and the sum of its readings")]
+    if SB:
+        rr = [SB["cells"][k]["tok_per_s"]["mean"] / SA["cells"][k]["tok_per_s"]["mean"] for k in SA["cells"] if k in SB["cells"]]
+        stats.insert(2, (f"{min(rr)*100:.0f} to {max(rr)*100:.0f}%", f"{lb} decode speed as a share of {la}"))
     figs = {}
     d = pathlib.Path(opts.get("figdir", out.parent / "figures"))
     d.mkdir(parents=True, exist_ok=True)
     figs["speed"] = F.speed_vs_depth(SA, SB, la, lb)
     figs["energy"] = F.energy_ladder(SA, SB, la, lb)
     figs["watts"] = F.where_watts_go(SA, la)
-    figs["timeline"] = F.power_timeline(raw, "gemma4-26b-a4b-q4", 4096, 1, None)
-    figs["score"] = F.scorecard(SA, "")
+    figs["timeline"] = F.power_timeline(raw, "gemma4-26b-a4b-q4", 4096, 1, "vulkan" if SB else None)
+    ev_path = opts.get("eval")
+    EV = json.load(open(ev_path)) if ev_path else None
+    if EV:
+        short = {"P1": "Vulkan on kernel 38 within 3% of study 1 in every cell", "P2": "ROCm within 25% of Vulkan; slower for the 26B mixture at 64",
+                 "P3": "ROCm gap shrinks or reverses with context for some model", "P4": "Idle under 25 W and within 2 W of study 1, both backends",
+                 "P5": "Wall power within 15% between backends, same cell", "P6": "Models rank the same by energy per token in both backends",
+                 "P7": "Repeat spread under 5% in every cell", "P8": "All 96 cells, 3 repeats; parse error only with the 26B mixture"}
+        det = {"P1": f"largest difference {EV['P1']['max_abs_pct']}%", "P2": f"ROCm at {EV['P2']['min_ratio']*100:.0f} to {EV['P2']['max_ratio']*100:.0f}% of Vulkan",
+               "P4": f"idle {EV['P4']['vulkan_median_w'][0]:g} W Vulkan, {EV['P4']['rocm_median_w'][0]:g} W ROCm, {EV['P4']['study1_median_w'][0]:g} W in study 1",
+               "P5": f"ROCm wall power {EV['P5']['min']*100:.0f} to {EV['P5']['max']*100:.0f}% of Vulkan", "P7": f"largest spread {EV['P7']['max_pct']}%",
+               "P8": f"{EV['P8']['parse_error_requests']} requests recovered after the parse error, {EV['P8']['failed']} failed cells, {EV['P8']['contaminated']} contaminated"}
+        figs["score"] = F.scorecard(SA, "", items=[(f"{k} {short[k]}", v["holds"]) for k, v in EV.items()], detail=det)
+        flags = [(k, v["holds"]) for k, v in EV.items()]
+        n_ex, held = len(flags), sum(1 for _, ok in flags if ok)
+        stats[-2] = (f"{held} of {n_ex}", "expectations written in advance held")
+    else:
+        figs["score"] = F.scorecard(SA, "")
     if SB:
         figs["ratio"] = F.ratio_heatmap(SA, SB, la, lb)
     for k, v in figs.items():
@@ -99,9 +141,11 @@ def main():
             f'<p class="lede">Speed and energy per token for four local models on one AMD Ryzen AI MAX+ 395 mini PC, measured at the wall plug and at the chip, '
             f'{"on two software backends, " if SB else ""}with the plan and the expectations written down before the run.</p>',
             f'<p class="status">{e(status)}</p>', '<div class="stats">' + "".join(f"<div class='stat'><b>{a}</b><span>{b}</span></div>" for a, b in stats) + "</div>"]
+    if SB:
+        body += [f'<h2>What I found</h2>{findings(SA, SB, EV, la, lb)}']
     body += [f'<h2>Speed against context length</h2><figure>{figs["speed"]}<figcaption><strong>Decode speed.</strong> Tokens per second for each model as the prompt already in the cache grows from 64 to 32,768 tokens. The band is the lowest to highest of three repeats. All four panels share one scale.</figcaption></figure>',
              f'<h2>Energy per token</h2><figure>{figs["energy"]}<figcaption><strong>Joules per generated token, net of idle.</strong> Filled dots are the wall plug, hollow dots the chip\'s own sensor, each from 64 tokens of context (small dot) to 32k (large). The chip sensor always reads lower than the plug, because it sees only the chip.</figcaption></figure>',
-             f'<h2>Where the watts go</h2><figure>{figs["watts"]}<figcaption><strong>While decoding.</strong> The whole box draws about {idle["wall_w_median"]:.0f} W idle. The chip package accounts for most of what is added. The rest is everything else in the box that the chip sensor does not see.</figcaption></figure>',
+             f'<h2>Where the watts go</h2><figure>{figs["watts"]}<figcaption><strong>While decoding (Vulkan, 64 tokens of context).</strong> The whole box draws about {idle["wall_w_median"]:.0f} W idle. The chip package accounts for most of what is added. The rest is everything else in the box that the chip sensor does not see.</figcaption></figure>',
              f'<h2>How one cell was measured</h2><figure>{figs["timeline"]}<figcaption><strong>One measured cell, raw.</strong> The plug is read about once a second and the chip sensor ten times a second. Each dip is the gap between one 512-token request and the next. Energy per token is the area above the idle line inside the window, divided by the tokens generated in it.</figcaption></figure>']
     if SB:
         body += [f'<h2>{lb} against {la}</h2><figure>{figs["ratio"]}<figcaption><strong>{lb} decode speed as a share of {la}.</strong> A plain number means the repeat ranges of the two backends do not overlap. A dotted outline means they overlap, so I make no claim.</figcaption></figure>']
@@ -121,6 +165,9 @@ def main():
     drops = [100 * (1 - SA["cells"][f"{mk}@32768"]["tok_per_s"]["mean"] / SA["cells"][f"{mk}@64"]["tok_per_s"]["mean"]) for mk, _, _ in F.MODELS]
     cards = {"share-energy": (f"{min(jw):.1f} to {max(jw):.1f} joules per token", "Energy per generated token on one Strix Halo mini PC, wall plug, net of idle.", figs["energy"]),
              "share-speed": (f"Speed falls {min(drops):.0f} to {max(drops):.0f}% as context grows to 32k", "Decode speed for four local models, three repeats each.", figs["speed"])}
+    if SB:
+        rr = [SB["cells"][k]["tok_per_s"]["mean"] / SA["cells"][k]["tok_per_s"]["mean"] for k in SA["cells"] if k in SB["cells"]]
+        cards["share-rocm"] = (f"ROCm was {100-max(rr)*100:.0f} to {100-min(rr)*100:.0f}% slower than Vulkan", "Decode speed on one Strix Halo mini PC, same models and prompts, three repeats each.", figs["ratio"])
     for name, (h, sub, fig) in cards.items():
         (out.parent / f"{name}.html").write_text(
             f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS}body{{width:1200px;height:630px;margin:0;overflow:hidden;background:#f6f3ec}}'

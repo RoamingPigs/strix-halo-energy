@@ -1,0 +1,176 @@
+{
+ "P1": {
+  "claim": "Vulkan now within 3% of study 1 tokens per second in every cell",
+  "holds": true,
+  "max_abs_pct": 1.52,
+  "mean_pct": 0.22,
+  "worst": [
+   [
+    "gemma4-26b-a4b-q4@4096",
+    1.524580768335504
+   ],
+   [
+    "gemma4-26b-a4b-q4@64",
+    0.9025024740939802
+   ],
+   [
+    "qwen36-35b-a3b-q8@16384",
+    0.7902258409792529
+   ]
+  ]
+ },
+ "P2": {
+  "claim": "ROCm within 25% of Vulkan in every cell, and below Vulkan for the 26B mixture at depth 64",
+  "holds": true,
+  "min_ratio": 0.881,
+  "max_ratio": 0.99,
+  "ratio_26b_64": 0.919
+ },
+ "P3": {
+  "claim": "for at least one model the ROCm minus Vulkan gap shrinks or reverses from 64 to 32k",
+  "holds": true,
+  "ratio_64_to_32k": {
+   "gemma4-12b-q4": [
+    0.984,
+    0.965
+   ],
+   "gemma4-26b-a4b-q4": [
+    0.919,
+    0.959
+   ],
+   "qwen35-9b-q4km": [
+    0.978,
+    0.99
+   ],
+   "qwen36-35b-a3b-q8": [
+    0.881,
+    0.936
+   ]
+  }
+ },
+ "P4": {
+  "claim": "idle wall power under 25 W and within 2 W of study 1, both backends",
+  "holds": true,
+  "study1_median_w": [
+   16.5,
+   16.0,
+   18.0
+  ],
+  "vulkan_median_w": [
+   17.0,
+   17.0,
+   18.0
+  ],
+  "rocm_median_w": [
+   17.0,
+   16.0,
+   17.0
+  ]
+ },
+ "P5": {
+  "claim": "wall power under load within 15% between backends, same cell",
+  "holds": false,
+  "min": 0.869,
+  "max": 1.169
+ },
+ "P6": {
+  "claim": "models rank the same by wall net J/token in both backends (checked at each depth)",
+  "holds": true,
+  "ranking_vulkan_vs_rocm": {
+   "64": {
+    "vulkan": [
+     "gemma4-26b-a4b-q4",
+     "qwen36-35b-a3b-q8",
+     "qwen35-9b-q4km",
+     "gemma4-12b-q4"
+    ],
+    "rocm": [
+     "gemma4-26b-a4b-q4",
+     "qwen36-35b-a3b-q8",
+     "qwen35-9b-q4km",
+     "gemma4-12b-q4"
+    ],
+    "same": true
+   },
+   "4096": {
+    "vulkan": [
+     "gemma4-26b-a4b-q4",
+     "qwen36-35b-a3b-q8",
+     "qwen35-9b-q4km",
+     "gemma4-12b-q4"
+    ],
+    "rocm": [
+     "gemma4-26b-a4b-q4",
+     "qwen36-35b-a3b-q8",
+     "qwen35-9b-q4km",
+     "gemma4-12b-q4"
+    ],
+    "same": true
+   },
+   "16384": {
+    "vulkan": [
+     "gemma4-26b-a4b-q4",
+     "qwen36-35b-a3b-q8",
+     "qwen35-9b-q4km",
+     "gemma4-12b-q4"
+    ],
+    "rocm": [
+     "gemma4-26b-a4b-q4",
+     "qwen36-35b-a3b-q8",
+     "qwen35-9b-q4km",
+     "gemma4-12b-q4"
+    ],
+    "same": true
+   },
+   "32768": {
+    "vulkan": [
+     "gemma4-26b-a4b-q4",
+     "qwen36-35b-a3b-q8",
+     "qwen35-9b-q4km",
+     "gemma4-12b-q4"
+    ],
+    "rocm": [
+     "gemma4-26b-a4b-q4",
+     "qwen36-35b-a3b-q8",
+     "qwen35-9b-q4km",
+     "gemma4-12b-q4"
+    ],
+    "same": true
+   }
+  }
+ },
+ "P7": {
+  "claim": "repeat spread in tokens per second under 5% in every cell of both backends",
+  "holds": true,
+  "max_pct": 1.26,
+  "worst": [
+   [
+    "vulkan:qwen36-35b-a3b-q8@32768",
+    1.26
+   ],
+   [
+    "vulkan:gemma4-26b-a4b-q4@32768",
+    0.81
+   ],
+   [
+    "vulkan:qwen35-9b-q4km@64",
+    0.6
+   ]
+  ]
+ },
+ "P8": {
+  "claim": "all 96 cells complete with 3 repeats; parse errors only with the 26B mixture",
+  "holds": true,
+  "cells_ended": 96,
+  "combos": 32,
+  "repeat_counts": [
+   3
+  ],
+  "failed": 0,
+  "contaminated": 0,
+  "parse_error_requests": 12,
+  "parse_error_models": [
+   "gemma4-26b-a4b-q4"
+  ]
+ }
+}

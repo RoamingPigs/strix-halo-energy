@@ -100,8 +100,9 @@ def speed_vs_depth(SA, SB, la, lb):
             for p in pts:
                 out.append(f'<circle class="{cls[0]}f" cx="{p[0]:.1f}" cy="{p[1]:.1f}" r="3.5"/>')
             if pts:
-                out.append(f'<text class="v" x="{pts[0][0]:.1f}" y="{pts[0][1]-9:.1f}" text-anchor="middle">{pts[0][4]:.0f}</text>')
-                out.append(f'<text class="v" x="{pts[-1][0]:.1f}" y="{pts[-1][1]-9:.1f}" text-anchor="middle">{pts[-1][4]:.0f}</text>')
+                dy = -9 if S is SA else 17   # first backend's numbers above its line, second backend's below
+                out.append(f'<text class="v" x="{pts[0][0]:.1f}" y="{pts[0][1]+dy:.1f}" text-anchor="middle">{pts[0][4]:.0f}</text>')
+                out.append(f'<text class="v" x="{pts[-1][0]:.1f}" y="{pts[-1][1]+dy:.1f}" text-anchor="middle">{pts[-1][4]:.0f}</text>')
                 desc.append(f"{short}, {la if S is SA else lb}: " + ", ".join(f"{DEPTH_LABEL[d]} {cell(S, f'{mk}@{d}')['tok_per_s']['mean']:.1f}" for d in DEPTHS if cell(S, f"{mk}@{d}")))
     return svg(W, H, "f-speed", "Decode speed against context length", "Tokens per second by model and context length. " + "; ".join(desc), "".join(out))
 
@@ -195,10 +196,12 @@ def held_flags(S):
     return res
 
 
-def scorecard(S, rows_label):
-    """Each expectation written in advance, whether it held, and the number behind it."""
-    items = held_flags(S)
-    row = 44
+def scorecard(S, rows_label, items=None, detail=None):
+    """Each expectation written in advance, whether it held, and the number behind it.
+    items: optional list of (label, held) to use instead of a summary's E1 to E6."""
+    items = items if items is not None else held_flags(S)
+    detail = detail or {}
+    row = 54 if detail else 44
     W, H = 700, 8 + row * len(items)
     out = []
     for i, (k, ok) in enumerate(items):
@@ -206,6 +209,8 @@ def scorecard(S, rows_label):
         tag, _, txt = k.partition(" ")
         out.append(f'<rect class="{"chip" if ok else "chipb"}" x="0" y="{y}" width="640" height="{row-8}" rx="4"/>')
         out.append(f'<text class="t" x="14" y="{y+22}">{e(tag)}</text><text x="52" y="{y+22}">{e(txt)}</text>')
+        if tag in detail:
+            out.append(f'<text class="m" x="52" y="{y+36}">{e(detail[tag])}</text>')
         out.append(f'<text class="{"ok" if ok else "bad"} t" x="626" y="{y+22}" text-anchor="end">{"held" if ok else "wrong"}</text>')
     return svg(W, H, "f-score", "Expectations written in advance", "; ".join(f"{k}: {'held' if ok else 'wrong'}" for k, ok in items), "".join(out))
 
