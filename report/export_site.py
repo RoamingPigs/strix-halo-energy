@@ -13,6 +13,7 @@ import subprocess
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
+import derive as D  # noqa: E402
 import figures as F  # noqa: E402
 
 out, run = pathlib.Path(sys.argv[1]), pathlib.Path(sys.argv[2])
@@ -38,6 +39,9 @@ for k, v in figs.items():
     (out / "figures" / f"{k}.svg").write_text(v)
 css = re.search(r"<style>(.*?)</style>", F.STYLE, re.S).group(1).strip()
 (out / "figures.css").write_text(css + "\n")
+(out / "findings.json").write_text(json.dumps([{"label": a, "text": b} for a, b in D.findings(V, R, EV)], indent=1) + "\n")
+(out / "table-vulkan.json").write_text(json.dumps(D.table(V), indent=1) + "\n")
+(out / "table-rocm.json").write_text(json.dumps(D.table(R), indent=1) + "\n")
 for name in ("summary-vulkan.json", "summary-rocm.json", "evaluation.json"):
     shutil.copy(run / name, out / name)
 repo = pathlib.Path(__file__).parent.parent

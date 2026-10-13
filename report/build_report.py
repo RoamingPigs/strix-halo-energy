@@ -10,6 +10,7 @@ import sys
 from html import escape as e
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
+import derive as D  # noqa: E402
 import figures as F  # noqa: E402
 
 CSS = """
@@ -58,27 +59,8 @@ def table(S, label):
     return f'<div class="tw"><table aria-label="{e(label)}">{"".join(rows)}</table></div>'
 
 
-def findings(SA, SB, EV, la, lb):
-    """Plain sentences computed from the two summaries. Direction only where the repeat ranges do not overlap."""
-    lab = {k: l for k, l, _ in F.MODELS}
-    shorts = {k: sh for k, _, sh in F.MODELS}
-    out = []
-    keys = [f"{mk}@{d}" for mk, _, _ in F.MODELS for d in F.DEPTHS if f"{mk}@{d}" in SA["cells"] and f"{mk}@{d}" in SB["cells"]]
-    def side(k, m):
-        a, b = SA["cells"][k][m], SB["cells"][k][m]
-        return "higher" if b["min"] > a["max"] else "lower" if b["max"] < a["min"] else "overlap"
-    sp = [SB["cells"][k]["tok_per_s"]["mean"] / SA["cells"][k]["tok_per_s"]["mean"] for k in keys]
-    lower = sum(1 for k in keys if side(k, "tok_per_s") == "lower")
-    out.append(f"<strong>Speed.</strong> {lb} decoded more slowly than {la} in {lower} of {len(keys)} cells, by {100-max(sp)*100:.0f} to {100-min(sp)*100:.0f}%, and the repeat ranges of the two backends never overlap in those cells. It was never faster.")
-    for mk, _, _ in F.MODELS:
-        ks = [f"{mk}@{d}" for d in F.DEPTHS if f"{mk}@{d}" in keys]
-        r = [SB["cells"][k]["wall_net_j_per_tok"]["mean"] / SA["cells"][k]["wall_net_j_per_tok"]["mean"] for k in ks]
-        dirs = {side(k, "wall_net_j_per_tok") for k in ks}
-        word = "less" if dirs == {"lower"} else "more" if dirs == {"higher"} else "about the same (the repeat ranges overlap in some cells)"
-        out.append(f"<strong>Energy, {shorts[mk]}.</strong> {lb} used {word} energy per token than {la}: {min(r)*100-100:+.0f} to {max(r)*100-100:+.0f}% across the four context lengths (wall plug, net of idle).")
-    if EV:
-        out.append(f"<strong>Repeatability.</strong> {la} on the newer kernel, on another day, matched study 1 within {EV['P1']['max_abs_pct']}% in every one of the 16 cells. Idle power was {EV['P4']['vulkan_median_w'][0]:g} W against {EV['P4']['study1_median_w'][0]:g} W.")
-    return "<ul>" + "".join(f"<li>{x}</li>" for x in out) + "</ul>"
+def findings_html(SA, SB, EV, la, lb):
+    return "<ul>" + "".join(f"<li><strong>{e(a)}.</strong> {e(b)}</li>" for a, b in D.findings(SA, SB, EV, la, lb)) + "</ul>"
 
 
 def main():
@@ -142,7 +124,7 @@ def main():
             f'{"on two software backends, " if SB else ""}with the plan and the expectations written down before the run.</p>',
             f'<p class="status">{e(status)}</p>', '<div class="stats">' + "".join(f"<div class='stat'><b>{a}</b><span>{b}</span></div>" for a, b in stats) + "</div>"]
     if SB:
-        body += [f'<h2>What I found</h2>{findings(SA, SB, EV, la, lb)}']
+        body += [f'<h2>What I found</h2>{findings_html(SA, SB, EV, la, lb)}']
     body += [f'<h2>Speed against context length</h2><figure>{figs["speed"]}<figcaption><strong>Decode speed.</strong> Tokens per second for each model as the prompt already in the cache grows from 64 to 32,768 tokens. The band is the lowest to highest of three repeats. All four panels share one scale.</figcaption></figure>',
              f'<h2>Energy per token</h2><figure>{figs["energy"]}<figcaption><strong>Joules per generated token, net of idle.</strong> Filled dots are the wall plug, hollow dots the chip\'s own sensor, each from 64 tokens of context (small dot) to 32k (large). The chip sensor always reads lower than the plug, because it sees only the chip.</figcaption></figure>',
              f'<h2>Where the watts go</h2><figure>{figs["watts"]}<figcaption><strong>While decoding (Vulkan, 64 tokens of context).</strong> The whole box draws about {idle["wall_w_median"]:.0f} W idle. The chip package accounts for most of what is added. The rest is everything else in the box that the chip sensor does not see.</figcaption></figure>',
