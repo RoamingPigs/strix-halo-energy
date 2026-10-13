@@ -42,6 +42,12 @@ css = re.search(r"<style>(.*?)</style>", F.STYLE, re.S).group(1).strip()
 (out / "findings.json").write_text(json.dumps([{"label": a, "text": b} for a, b in D.findings(V, R, EV)], indent=1) + "\n")
 (out / "table-vulkan.json").write_text(json.dumps(D.table(V), indent=1) + "\n")
 (out / "table-rocm.json").write_text(json.dumps(D.table(R), indent=1) + "\n")
+# Nominal parameter counts, read from the model names (9B, 12B, 26B-A4B, 35B-A3B); bytes are the GGUF file sizes in meta.json.
+NOMINAL = {"qwen35-9b-q4km": (9.0, 9.0), "gemma4-12b-q4": (12.0, 12.0), "gemma4-26b-a4b-q4": (26.0, 4.0), "qwen36-35b-a3b-q8": (35.0, 3.0)}
+meta = json.load(open(run / "meta.json"))
+(out / "models.json").write_text(json.dumps([
+    {"key": k, "label": lab, "short": sh, "kind": "dense" if NOMINAL[k][0] == NOMINAL[k][1] else "moe", "total_b": NOMINAL[k][0], "active_b": NOMINAL[k][1],
+     "file_bytes": meta["models"][k]["bytes"]} for k, lab, sh in F.MODELS], indent=1) + "\n")
 for name in ("summary-vulkan.json", "summary-rocm.json", "evaluation.json"):
     shutil.copy(run / name, out / name)
 repo = pathlib.Path(__file__).parent.parent
