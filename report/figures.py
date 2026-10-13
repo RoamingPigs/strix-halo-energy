@@ -34,13 +34,20 @@ STYLE = """<style>
 .sh .idle{stroke:var(--f-mut,#6b6558);stroke-width:1.25;stroke-dasharray:4 3}
 .sh .win{fill:var(--f-ink,#15130f);opacity:.06}
 .sh .ok{fill:var(--f-ok,#0b6b4d)}.sh .bad{fill:var(--f-bad,#a32020)}
+.sh .hm{stroke:var(--f-mut,#6b6558)}.sh .ha{stroke:var(--f-a,#1a47c9)}.sh .hb{stroke:var(--f-b,#c2410c)}.sh .lo{opacity:.45}
+.sh .wf-idle{fill:var(--f-rule2,#b9b19b)}.sh .wf-a{fill:var(--f-a,#1a47c9)}.sh .wf-b{fill:var(--f-b,#c2410c)}
+.sh .hm-a{fill:var(--f-a,#1a47c9)}.sh .hm-b{fill:var(--f-b,#c2410c)}.sh .hm-dash{fill:none;stroke:var(--f-mut,#6b6558);stroke-dasharray:2 3}
+.sh .op1{opacity:.1}.sh .op2{opacity:.2}.sh .op3{opacity:.3}.sh .op4{opacity:.4}.sh .op5{opacity:.5}.sh .op6{opacity:.6}.sh .op7{opacity:.7}.sh .op8{opacity:.8}.sh .op9{opacity:.9}
 .sh .chip{fill:var(--f-chip,#e1f1ea)}.sh .chipb{fill:var(--f-chipb,#f6dede)}
 </style>"""
 
 
+CLASS_ONLY = False   # True: no <style> block and no style attributes, for pages with a strict Content-Security-Policy
+
+
 def svg(w, h, uid, title, desc, body):
     return (f'<svg class="sh" viewBox="0 0 {w} {h}" width="100%" role="img" aria-labelledby="{uid}-t {uid}-d" '
-            f'xmlns="http://www.w3.org/2000/svg">{STYLE}<title id="{uid}-t">{e(title)}</title>'
+            f'xmlns="http://www.w3.org/2000/svg">{"" if CLASS_ONLY else STYLE}<title id="{uid}-t">{e(title)}</title>'
             f'<desc id="{uid}-d">{e(desc)}</desc>{body}</svg>')
 
 
@@ -119,7 +126,7 @@ def energy_ladder(SA, SB, la, lb):
     out = [f'<text class="m" x="{x1-0}" y="{H-2}" text-anchor="end">Joules per generated token, net of idle</text><line class="a" x1="{x0}" y1="22" x2="{x0+26}" y2="22"/><text x="{x0+32}" y="26">{e(la)}</text>']
     if SB:
         out.append(f'<line class="b" x1="{x0+110}" y1="22" x2="{x0+136}" y2="22"/><text x="{x0+142}" y="26">{e(lb)}</text>')
-    out.append(f'<circle class="af" cx="{x0+250}" cy="22" r="5"/><text x="{x0+260}" y="26">wall plug</text><circle class="hollow" style="stroke:var(--f-mut,#6b6558)" cx="{x0+342}" cy="22" r="5"/><text x="{x0+352}" y="26">chip package</text>')
+    out.append(f'<circle class="af" cx="{x0+250}" cy="22" r="5"/><text x="{x0+260}" y="26">wall plug</text><circle class="hollow hm" cx="{x0+342}" cy="22" r="5"/><text x="{x0+352}" y="26">chip package</text>')
     for g in ticks(vmax, 5):
         x = x0 + g * sc
         out.append(f'<line class="g" x1="{x:.1f}" y1="{top-14}" x2="{x:.1f}" y2="{H-34}"/><text class="m" x="{x:.1f}" y="{H-16}" text-anchor="middle">{g:g}</text>')
@@ -135,13 +142,13 @@ def energy_ladder(SA, SB, la, lb):
             for kind, key in (("wall", "wall_net_j_per_tok"), ("pkg", "ppt_net_j_per_tok")):
                 yy = y + ri * (28 if SB else 0) + (0 if kind == "wall" else 13)
                 xs_ = [x0 + c[key]["mean"] * sc for _, c in pts]
-                out.append(f'<line class="{cls}" x1="{xs_[0]:.1f}" y1="{yy}" x2="{xs_[-1]:.1f}" y2="{yy}" style="opacity:{1 if kind == "wall" else .45}"/>')
+                out.append(f'<line class="{cls}" x1="{xs_[0]:.1f}" y1="{yy}" x2="{xs_[-1]:.1f}" y2="{yy}" />'.replace('class="' + cls + '"', 'class="' + cls + ('' if kind == "wall" else ' lo') + '"'))
                 for xv, (d, c) in zip(xs_, pts):
                     r = 2.6 + 1.0 * DEPTHS.index(d)
                     if kind == "wall":
                         out.append(f'<circle class="{cls[0]}f" cx="{xv:.1f}" cy="{yy}" r="{r:.1f}"><title>{short}, {nm}, {DEPTH_LABEL[d]}: wall {c[key]["mean"]:.2f} J/token</title></circle>')
                     else:
-                        out.append(f'<circle class="hollow" style="stroke:var(--f-{cls},{"#1a47c9" if cls == "a" else "#c2410c"})" cx="{xv:.1f}" cy="{yy}" r="{r:.1f}"><title>{short}, {nm}, {DEPTH_LABEL[d]}: package {c[key]["mean"]:.2f} J/token</title></circle>')
+                        out.append(f'<circle class="hollow h{cls}" cx="{xv:.1f}" cy="{yy}" r="{r:.1f}"><title>{short}, {nm}, {DEPTH_LABEL[d]}: package {c[key]["mean"]:.2f} J/token</title></circle>')
             wx = x0 + pts[-1][1]["wall_net_j_per_tok"]["mean"] * sc
             out.append(f'<text class="v" x="{wx+12:.1f}" y="{y + ri * 28 + 4}">{pts[-1][1]["wall_net_j_per_tok"]["mean"]:.2f}</text>')
             desc.append(f"{short}, {la if S is SA else lb}: wall net " + ", ".join(f"{DEPTH_LABEL[d]} {c['wall_net_j_per_tok']['mean']:.2f}" for d, c in pts))
@@ -159,11 +166,11 @@ def where_watts_go(S, label):
     x0, x1 = left, W - right
     sc = (x1 - x0) / vmax
     out = []
-    lg = [("var(--f-rule2,#b9b19b)", f"Idle ({idle_w:.0f} W)"), ("var(--f-a,#1a47c9)", "Added at the chip"), ("var(--f-b,#c2410c)", "Added elsewhere in the box")]
+    lg = [("wf-idle", f"Idle ({idle_w:.0f} W)"), ("wf-a", "Added at the chip"), ("wf-b", "Added elsewhere in the box")]
     lg = [lg[0], lg[1], lg[2]]
     lx = x0
     for col, txt in lg:
-        out.append(f'<rect x="{lx}" y="14" width="12" height="12" rx="2" style="fill:{col}"/><text x="{lx+18}" y="25">{e(txt)}</text>')
+        out.append(f'<rect x="{lx}" y="14" width="12" height="12" rx="2" class="{col}"/><text x="{lx+18}" y="25">{e(txt)}</text>')
         lx += 18 + 6.9 * len(txt) + 16
     for g in ticks(vmax, 5):
         x = x0 + g * sc
@@ -177,8 +184,8 @@ def where_watts_go(S, label):
         rest = max(wall - idle_w - add_pkg, 0)
         out.append(f'<text class="t" x="{x0-12}" y="{y+22}" text-anchor="end">{e(short)}</text>')
         xx = x0
-        for w_, col in ((idle_w, "var(--f-rule2,#b9b19b)"), (add_pkg, "var(--f-a,#1a47c9)"), (rest, "var(--f-b,#c2410c)")):
-            out.append(f'<rect x="{xx:.1f}" y="{y+6}" width="{w_*sc:.1f}" height="26" style="fill:{col}"/>')
+        for w_, col in ((idle_w, "wf-idle"), (add_pkg, "wf-a"), (rest, "wf-b")):
+            out.append(f'<rect x="{xx:.1f}" y="{y+6}" width="{w_*sc:.1f}" height="26" class="{col}"/>')
             xx += w_ * sc
         out.append(f'<text class="v" x="{xx+8:.1f}" y="{y+24}">{wall:.0f} W</text>')
         desc.append(f"{short}: {wall:.0f} W at the wall, of which idle {idle_w:.0f}, extra at the package {add_pkg:.0f}, elsewhere {rest:.0f}")
@@ -231,12 +238,12 @@ def ratio_heatmap(SA, SB, la, lb):
                 continue
             r = b["tok_per_s"]["mean"] / a["tok_per_s"]["mean"]
             real = b["tok_per_s"]["min"] > a["tok_per_s"]["max"] or b["tok_per_s"]["max"] < a["tok_per_s"]["min"]
-            col = "var(--f-b,#c2410c)" if r < 1 else "var(--f-a,#1a47c9)"
-            op = min(0.12 + abs(1 - r) * 2.2, 0.85)
+            col = "hm-b" if r < 1 else "hm-a"
+            op = max(1, min(9, round((0.12 + abs(1 - r) * 2.2) * 10)))   # opacity class op1..op9, one per 0.1
             x, y = left + j * cw, top + i * ch
-            out.append(f'<rect x="{x+2}" y="{y+2}" width="{cw-4}" height="{ch-4}" rx="4" style="fill:{col};opacity:{op:.2f}"/>')
+            out.append(f'<rect x="{x+2}" y="{y+2}" width="{cw-4}" height="{ch-4}" rx="4" class="{col} op{op}"/>')
             if not real:
-                out.append(f'<rect x="{x+2}" y="{y+2}" width="{cw-4}" height="{ch-4}" rx="4" fill="none" style="stroke:var(--f-mut,#6b6558)" stroke-dasharray="2 3"/>')
+                out.append(f'<rect x="{x+2}" y="{y+2}" width="{cw-4}" height="{ch-4}" rx="4" class="hm-dash"/>')
             out.append(f'<text class="v" x="{x+cw/2}" y="{y+ch/2+5}" text-anchor="middle">{r*100:.0f}%</text>')
             desc.append(f"{short} {DEPTH_LABEL[d]}: {r*100:.0f}% ({'real' if real else 'overlap'})")
     return svg(W, H, "f-ratio", f"{lb} against {la}", "Decode speed ratio. " + "; ".join(desc), "".join(out))
